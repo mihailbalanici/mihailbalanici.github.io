@@ -1,0 +1,35 @@
+---
+layout: page
+title: Certifications
+permalink: /certifications/
+lead: Certifications, licenses, scholarships and awards.
+---
+<section class="block">
+  <h2>Certifications &amp; licenses</h2>
+  <ul class="list">
+    {% for c in site.data.certifications.certifications %}
+    <li>
+      <i class="fa-solid fa-certificate"></i>
+      <div>
+        <h3>{% if c.url != "" %}<a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</h3>
+        <p class="muted">{{ c.issuer }}{% if c.year != "" %} · {{ c.year }}{% endif %}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="block">
+  <h2>Scholarships &amp; awards</h2>
+  <ul class="list">
+    {% for a in site.data.certifications.awards %}
+    <li>
+      <i class="fa-solid fa-award"></i>
+      <div>
+        <h3>{{ a.name }}</h3>
+        <p class="muted">{{ a.issuer }} · {{ a.year }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

@@ -1,0 +1,47 @@
+# Key publications, newest first. Add new entries at the top.
+# type: conference | journal | demo
+- title: Autonomous Link-Capacity Adjustment using TeraFlowSDN Controller in a Disaggregated Optical Network Testbed
+  authors: M. Balanici et al.
+  venue: European Conference on Optical Communication (ECOC), D4 Demo
+  place: Frankfurt am Main, Germany
+  year: 2024
+  type: demo
+  url: "https://scholar.google.de/citations?view_op=view_citation&hl=en&user=P3YThigAAAAJ&citation_for_view=P3YThigAAAAJ:7PzlFSSx8tAC"
+
+- title: Live Demonstration of Autonomous Link-Capacity Adjustment in Optical Metro-Aggregation Networks
+  authors: M. Balanici et al.
+  venue: Optical Fiber Communication Conference (OFC), M3Z.3, pp. 1–3
+  place: San Diego, CA, USA
+  year: 2024
+  type: demo
+  url: "https://ieeexplore.ieee.org/abstract/document/10526615"
+
+- title: Demonstration of a Real-Time ML Pipeline for Traffic Forecasting in AI-Assisted F5G Optical Access Networks
+  authors: M. Balanici et al.
+  venue: European Conference on Optical Communication (ECOC), Tu2.5, pp. 1–4
+  place: Basel, Switzerland
+  year: 2022
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/9979485"
+
+- title: Classification and Forecasting of Real-Time Server Traffic Flows Employing Long Short-Term Memory for Hybrid E/O Data Center Networks
+  authors: M. Balanici et al.
+  venue: IEEE/OSA Journal of Optical Communications and Networking (JOCN), vol. 13, no. 5, pp. 85–93
+  year: 2021
+  type: journal
+  url: "https://ieeexplore.ieee.org/document/9353854"
+
+- title: Machine Learning-based Traffic Prediction for Optical Switching Resource Allocation in Hybrid Intra-Data Center Networks
+  authors: M. Balanici et al.
+  venue: Optical Fiber Communication Conference (OFC), Th1H.4, pp. 1–3
+  place: San Diego, CA, USA
+  year: 2019
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/8696381"
+
+- title: Hybrid Electro-Optical Intra-Data Center Networks Tailored for Different Traffic Classes
+  authors: M. Balanici et al.
+  venue: IEEE/OSA Journal of Optical Communications and Networking (JOCN), vol. 10, no. 11, pp. 889–901
+  year: 2018
+  type: journal
+  url: "https://ieeexplore.ieee.org/document/8542837"

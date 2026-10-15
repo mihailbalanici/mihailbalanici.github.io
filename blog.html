@@ -1,0 +1,21 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+lead: Notes on network automation, data engineering, machine learning — and the occasional detour.
+---
+{% if site.posts.size > 0 %}
+<ol class="posts">
+  {% for post in site.posts %}
+  <li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+    <div>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      {% if post.description %}<p class="muted">{{ post.description }}</p>{% else %}<p class="muted">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+{% else %}
+<p class="empty">No posts yet — check back soon.</p>
+{% endif %}

@@ -1,0 +1,26 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+lead: Selected papers and demonstrations. The full list is on my Google Scholar profile.
+---
+{% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% for group in by_year %}
+<section class="pub-year">
+  <h2>{{ group.name }}</h2>
+  <ol class="pubs">
+    {% for p in group.items %}
+    <li>
+      <span class="badge badge-{{ p.type }}">{{ p.type }}</span>
+      <h3>{% if p.url != "" %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+      <p class="muted">{{ p.authors }} · {{ p.venue }}{% if p.place %}, {{ p.place }}{% endif %}</p>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endfor %}
+
+<p class="more">
+  <a class="btn btn-ghost" href="{{ site.social.google_scholar }}" target="_blank" rel="noopener"><i class="fa-brands fa-google-scholar"></i> Full list on Google Scholar</a>
+  {% if site.social.orcid != "" %}<a class="btn btn-ghost" href="{{ site.social.orcid }}" target="_blank" rel="noopener"><i class="fa-brands fa-orcid"></i> ORCID</a>{% endif %}
+</p>

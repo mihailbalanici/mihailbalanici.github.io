@@ -1,0 +1,24 @@
+# Add new certifications at the top. Leave url empty if there is no credential link.
+certifications:
+  - name: Cisco Certified Network Associate (CCNA) — Trainee program
+    issuer: Cisco Networking Academy
+    year: 2010 – 2011
+    url: ""
+  - name: Sport Boating License (SBF-See & SBF-Binnen)
+    issuer: Germany
+    year: ""
+    url: ""
+
+awards:
+  - name: DAAD Scholarship
+    issuer: German Academic Exchange Service (DAAD)
+    year: 2011 – 2013
+  - name: Orange Scholarship
+    issuer: Orange Moldova
+    year: 2009
+  - name: Presidential Medal for Excellence
+    issuer: President of the Republic of Moldova
+    year: 2009
+  - name: Moldcell Scholarship
+    issuer: Moldcell, TeliaSonera Group
+    year: 2008

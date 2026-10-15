@@ -1,0 +1,36 @@
+- role: Research Associate / Scientist
+  org: Fraunhofer Heinrich Hertz Institute (HHI)
+  unit: Department of Photonic Networks and Systems
+  place: Berlin, Germany
+  period: 2021 – present
+  points:
+    - Research and development of telemetry frameworks, data analytics, and ETL & ML pipelines for network and service automation, traffic monitoring and analytics, and autonomous resource allocation in optical networks.
+    - Developed from scratch, deployed and made key contributions to the first prototype technology demonstrators and proofs-of-concept (PoC) for industry and national research projects, as well as standardization proposals.
+    - Presented and published the prototypes and PoCs at international conferences, journals, workshops, exhibitions and project meetings.
+
+- role: Doctoral Research Assistant
+  org: Kiel University (CAU)
+  unit: Institute of Electrical Engineering and Information Technology
+  place: Kiel, Germany
+  period: 2016 – 2020
+  points:
+    - Research on hybrid electro-optical intra-data center networks (DCN) and their optimization using traffic modeling, machine learning for traffic forecasting, and optical circuit switching (OCS).
+    - Prepared and taught exercise and lab courses on Digital Communications, Fiber-Optic Communication Networks, and Communications Lab.
+
+- role: System Engineer
+  org: ES Engineering and Service GmbH
+  place: Ulm, Germany
+  period: 2014 – 2015
+  points:
+    - Software development, integration and testing for industrial control systems and industry automation (Siemens SIMATIC S7 PLC, IoT sensors and HMI display programming).
+    - Design and preparation of electrical documentation (ESplan CAD/CAE).
+    - Commissioning and technical deployment at client sites.
+
+- role: Graduate Student Researcher
+  org: Ulm University
+  unit: Institute of Distributed Systems
+  place: Ulm, Germany
+  period: 2013 – 2014
+  points:
+    - Master thesis research on a cluster-based data aggregation protocol (CBAP) for V2V communication / vehicular ad-hoc networks.
+    - Published key results at the IEEE Vehicular Networking Conference (VNC) 2013, Boston, MA, USA.

@@ -1,0 +1,27 @@
+- group: Core expertise
+  icon: fa-solid fa-diagram-project
+  items: [Data Engineering / DevOps, Machine Learning / MLOps, ETL and ML Pipelines, Network Engineering & Automation, CI/CD, Data Center Networks, Optical Networks and Systems, Research & Development, Scientific Writing, Project Management]
+
+- group: Programming
+  icon: fa-solid fa-code
+  items: [Python, Matlab, SQL, NoSQL, Time-series databases, Shell scripting, PLC programming]
+
+- group: Data & streaming
+  icon: fa-solid fa-database
+  items: [Apache Kafka, Apache Spark, "TICK stack (Telegraf, InfluxDB, Chronograf, Kapacitor)", MongoDB, Redis, Grafana]
+
+- group: Machine learning
+  icon: fa-solid fa-brain
+  items: [PyTorch, TensorFlow, scikit-learn]
+
+- group: Infrastructure & DevOps
+  icon: fa-solid fa-server
+  items: [Docker, Kubernetes, Git, Linux, Windows, macOS]
+
+- group: Network protocols & data formats
+  icon: fa-solid fa-network-wired
+  items: [NETCONF/YANG, SNMP/MIB, gRPC/gNMI, JSON, XML, Protocol Buffers, SCPI]
+
+- group: Documentation & analysis
+  icon: fa-solid fa-pen-ruler
+  items: [LaTeX, OriginPro, MS Office, MS Visio]

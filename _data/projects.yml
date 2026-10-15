@@ -1,0 +1,41 @@
+# Projects — edit freely. "links" is optional; each link needs a label and url.
+- title: Autonomous link-capacity adjustment in optical networks
+  period: 2024
+  where: Fraunhofer HHI
+  summary: >-
+    Closed-loop automation that adjusts link capacity in optical metro-aggregation networks
+    based on live telemetry, integrated with the TeraFlowSDN controller and shown on a
+    disaggregated optical network testbed.
+  tags: [Network automation, SDN, Telemetry, Optical networks]
+  links:
+    - { label: OFC 2024 paper, url: "https://ieeexplore.ieee.org/abstract/document/10526615" }
+
+- title: Real-time ML pipeline for traffic forecasting in F5G optical access networks
+  period: 2022
+  where: Fraunhofer HHI
+  summary: >-
+    End-to-end streaming pipeline that collects network telemetry, forecasts traffic with ML models
+    and feeds the predictions back into AI-assisted fifth-generation fixed network (F5G) operations.
+  tags: [MLOps, Kafka, Time series, Forecasting]
+  links:
+    - { label: ECOC 2022 paper, url: "https://ieeexplore.ieee.org/document/9979485" }
+
+- title: ML-based traffic forecasting for hybrid electro-optical data center networks
+  period: 2016 – 2020
+  where: Kiel University · PhD research
+  summary: >-
+    Traffic modeling and LSTM-based classification and forecasting of server traffic flows,
+    used to allocate optical circuit switching resources in hybrid intra-data center networks.
+  tags: [Machine learning, LSTM, Data center networks, Optical switching]
+  links:
+    - { label: JOCN 2021 paper, url: "https://ieeexplore.ieee.org/document/9353854" }
+    - { label: JOCN 2018 paper, url: "https://ieeexplore.ieee.org/document/8542837" }
+
+- title: Cluster-based data aggregation for vehicle-to-vehicle communication
+  period: 2013 – 2014
+  where: Ulm University · Master thesis
+  summary: >-
+    Design of a cluster-based data aggregation protocol (CBAP) for vehicular ad-hoc networks,
+    with results presented at the IEEE Vehicular Networking Conference 2013.
+  tags: [VANET, Protocol design, Simulation]
+  links: []

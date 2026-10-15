@@ -1,0 +1,21 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+lead: Research prototypes and systems I've built.
+---
+<div class="cards">
+  {% for p in site.data.projects %}
+  <article class="card project">
+    <p class="meta">{{ p.period }} · {{ p.where }}</p>
+    <h2>{{ p.title }}</h2>
+    <p>{{ p.summary }}</p>
+    {% if p.tags %}<ul class="chips small-chips">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+    {% if p.links.size > 0 %}
+    <p class="links">
+      {% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>{% endfor %}
+    </p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>

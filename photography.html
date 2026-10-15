@@ -1,0 +1,57 @@
+---
+layout: page
+title: Photography
+permalink: /photography/
+lead: A selection of my photos.
+---
+{% comment %}
+  Every .jpg / .jpeg / .png / .webp file you put into assets/photos/ shows up here automatically,
+  newest file name last. Name files descriptively (e.g. "2025-lisbon-sunset.jpg") —
+  the name is used as the caption.
+{% endcomment %}
+{% assign photos = "" | split: "" %}
+{% for f in site.static_files %}
+  {% if f.path contains "/assets/photos/" %}
+    {% assign ext = f.extname | downcase %}
+    {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" %}
+      {% assign photos = photos | push: f %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign photos = photos | sort: "basename" | reverse %}
+
+{% if photos.size > 0 %}
+<div class="gallery">
+  {% for p in photos %}
+  {% assign caption = p.basename | replace: "-", " " | replace: "_", " " %}
+  <figure>
+    <button class="photo" data-src="{{ p.path | relative_url }}" data-caption="{{ caption }}" aria-label="Open {{ caption }}">
+      <img src="{{ p.path | relative_url }}" alt="{{ caption }}" loading="lazy">
+    </button>
+  </figure>
+  {% endfor %}
+</div>
+
+<dialog class="lightbox" aria-label="Photo viewer">
+  <button class="lb-close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+  <img alt="">
+  <p class="lb-caption"></p>
+</dialog>
+
+<script>
+  (function () {
+    var dlg = document.querySelector(".lightbox");
+    var img = dlg.querySelector("img"), cap = dlg.querySelector(".lb-caption");
+    document.querySelectorAll(".photo").forEach(function (b) {
+      b.addEventListener("click", function () {
+        img.src = b.dataset.src; img.alt = b.dataset.caption; cap.textContent = b.dataset.caption;
+        dlg.showModal();
+      });
+    });
+    dlg.querySelector(".lb-close").addEventListener("click", function () { dlg.close(); });
+    dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+  })();
+</script>
+{% else %}
+<p class="empty">Photos coming soon.</p>
+{% endif %}

@@ -1,0 +1,16 @@
+---
+layout: page
+title: Skills
+permalink: /skills/
+lead: Tools and methods I use to build telemetry, data and ML systems for networks.
+---
+<div class="cards">
+  {% for g in site.data.skills %}
+  <section class="card">
+    <h2><i class="{{ g.icon }}"></i> {{ g.group }}</h2>
+    <ul class="chips">
+      {% for s in g.items %}<li>{{ s }}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>

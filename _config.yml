@@ -1,0 +1,50 @@
+# ------------------------------------------------------------------
+#  Site settings — edit the values below, then commit.
+# ------------------------------------------------------------------
+title: Mihail Balanici
+tagline: Electrical, Data & ML Engineer / Scientist
+description: >-
+  Personal page and CV of Mihail Balanici — research on network automation,
+  telemetry, data engineering and machine learning for optical networks.
+author: Mihail Balanici
+
+# Your custom domain, e.g. https://firstnamelastname.com (no trailing slash)
+url: "https://firstnamelastname.com"
+baseurl: ""
+
+# Profile links shown as icons in the header and footer.
+# Replace every TODO with your real URL (leave a value empty "" to hide that icon).
+social:
+  email: mihail.balanici@gmail.com
+  linkedin: "https://www.linkedin.com/in/mihail-balanici"
+  github: "https://github.com/TODO"
+  google_scholar: "https://scholar.google.com/citations?user=P3YThigAAAAJ"
+  researchgate: "https://www.researchgate.net/profile/TODO"
+  orcid: "https://orcid.org/TODO"
+
+cv_pdf: /assets/cv/Mihail_Balanici_CV.pdf
+profile_image: /assets/img/profile.jpg
+
+# Navigation (order = order in the menu)
+nav:
+  - { title: About,          url: / }
+  - { title: Publications,   url: /publications/ }
+  - { title: Skills,         url: /skills/ }
+  - { title: Certifications, url: /certifications/ }
+  - { title: Projects,       url: /projects/ }
+  - { title: Blog,           url: /blog/ }
+  - { title: Photography,    url: /photography/ }
+
+# Blog
+permalink: /blog/:year/:month/:title/
+markdown: kramdown
+timezone: Europe/Berlin
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
