@@ -286,3 +286,7 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 .site-footer .social a { width: 36px; height: 36px; font-size: .95rem; }
 .block-first { margin-top: 0; }
 .page-actions { margin: -1rem 0 2.25rem; }
+
+/* Home page intro: justified text (Blocksatz) with hyphenation to avoid large word gaps */
+.about p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+@media (max-width: 640px) { .about p { text-align: left; } }  /* phones: columns too narrow for justified text */
