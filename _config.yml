@@ -17,17 +17,17 @@ baseurl: ""
 social:
   email: mihail.balanici@gmail.com
   linkedin: "https://www.linkedin.com/in/mihail-balanici"
-  github: "https://github.com/TODO"
+  github: "https://github.com/mihailbalanici"
   google_scholar: "https://scholar.google.com/citations?user=P3YThigAAAAJ"
-  researchgate: "https://www.researchgate.net/profile/TODO"
-  orcid: "https://orcid.org/TODO"
+  researchgate: "https://www.researchgate.net/profile/Mihail-Balanici"
+  orcid: "https://orcid.org/0000-0002-6811-7577"
 
 cv_pdf: /assets/cv/Mihail_Balanici_CV.pdf
 profile_image: /assets/img/profile.jpg
 
 # Navigation (order = order in the menu)
 nav:
-  - { title: About,          url: / }
+  - { title: About,          url: /about/ }
   - { title: Publications,   url: /publications/ }
   - { title: Skills,         url: /skills/ }
   - { title: Certifications, url: /certifications/ }
