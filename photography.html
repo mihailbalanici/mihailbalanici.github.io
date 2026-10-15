@@ -2,8 +2,12 @@
 layout: page
 title: Photography
 permalink: /photography/
-lead: A selection of my photos.
+lead: A selection of my photos. You'll find many more on my Flickr.
+flickr: https://www.flickr.com/photos/mihailbalanici/
 ---
+<p class="actions page-actions">
+  <a class="btn" href="{{ page.flickr }}" target="_blank" rel="me noopener"><i class="fa-brands fa-flickr"></i> View my Flickr</a>
+</p>
 {% comment %}
   Every .jpg / .jpeg / .png / .webp file you put into assets/photos/ shows up here automatically,
   newest file name last. Name files descriptively (e.g. "2025-lisbon-sunset.jpg") —
@@ -53,5 +57,5 @@ lead: A selection of my photos.
   })();
 </script>
 {% else %}
-<p class="empty">Photos coming soon.</p>
+<p class="empty">Photos coming soon here. Until then, have a look at my <a href="{{ page.flickr }}" target="_blank" rel="noopener">Flickr</a>.</p>
 {% endif %}
