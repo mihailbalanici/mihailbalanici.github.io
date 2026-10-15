@@ -1,0 +1,60 @@
+---
+layout: page
+title: About
+permalink: /about/
+lead: My background — experience, education, languages and interests.
+---
+<section class="block block-first">
+  <h2>Experience</h2>
+  <ol class="timeline">
+    {% for job in site.data.experience %}
+    <li>
+      <div class="tl-head">
+        <h3>{{ job.role }}</h3>
+        <span class="period">{{ job.period }}</span>
+      </div>
+      <p class="org">{{ job.org }}{% if job.unit %} · <span class="muted">{{ job.unit }}</span>{% endif %}</p>
+      <ul>
+        {% for p in job.points %}<li>{{ p }}</li>{% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="block">
+  <h2>Education</h2>
+  <ol class="timeline">
+    {% for e in site.data.education %}
+    <li>
+      <div class="tl-head">
+        <h3>{{ e.degree }}</h3>
+        <span class="period">{{ e.period }}</span>
+      </div>
+      <p class="org">{{ e.school }} · <span class="muted">{{ e.place }}</span></p>
+      {% if e.thesis %}<p class="small">Thesis: <em>{{ e.thesis }}</em></p>{% endif %}
+      {% if e.note %}<p class="small muted">{{ e.note }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="block">
+  <h2>Languages</h2>
+  <ul class="chips">
+    <li>Romanian <span>native</span></li>
+    <li>English <span>near-native</span></li>
+    <li>German <span>near-native</span></li>
+    <li>Russian <span>near-native</span></li>
+  </ul>
+</section>
+
+<section class="block">
+  <h2>Interests</h2>
+  <ul class="chips">
+    <li>Fitness &amp; tennis</li>
+    <li>Investing &amp; financial markets</li>
+    <li><a href="{{ '/photography/' | relative_url }}">Digital photography</a></li>
+    <li>Traveling &amp; hiking</li>
+  </ul>
+</section>
