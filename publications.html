@@ -13,7 +13,14 @@ lead: Selected journal papers, conference papers and talks. The full list is on 
     <li>
       <span class="badge badge-{{ p.type }}">{{ p.type }}</span>
       <h3>{% if p.url != "" %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
-      <p class="muted">{{ p.authors }} · {{ p.venue }}{% if p.place %}, {{ p.place }}{% endif %}</p>
+      <p class="muted">{{ p.authors }} · <em>{{ p.venue }}</em>{% if p.volume and p.volume != "" %}, vol. {{ p.volume }}{% endif %}{% if p.issue and p.issue != "" %}, no. {{ p.issue }}{% endif %}{% if p.place and p.place != "" %}, {{ p.place }}{% endif %}</p>
+      {% assign pid = p.paper_id | default: "" %}{% assign pgs = p.pages | default: "" %}
+      {% if pid != "" or pgs != "" %}
+      <p class="pub-ids">
+        {% if pid != "" %}<span><span class="muted">Paper ID</span> {{ pid }}</span>{% endif %}
+        {% if pgs != "" %}<span><span class="muted">pp.</span> {{ pgs }}</span>{% endif %}
+      </p>
+      {% endif %}
     </li>
     {% endfor %}
   </ol>
