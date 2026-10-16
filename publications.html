@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
-lead: Selected journal papers, conference papers and talks. The full list is on my Google Scholar profile.
+lead: Selected journal papers, conference papers and talks. The full list is available on my Google Scholar and ResearchGate profiles.
 ---
 {% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 {% for group in by_year %}
@@ -28,6 +28,7 @@ lead: Selected journal papers, conference papers and talks. The full list is on 
 {% endfor %}
 
 <p class="more">
-  <a class="btn btn-ghost" href="{{ site.social.google_scholar }}" target="_blank" rel="noopener"><i class="fa-brands fa-google-scholar"></i> Full list on Google Scholar</a>
+  <a class="btn btn-ghost" href="{{ site.social.google_scholar }}" target="_blank" rel="noopener"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a>
+  {% if site.social.researchgate != "" %}<a class="btn btn-ghost" href="{{ site.social.researchgate }}" target="_blank" rel="noopener"><i class="fa-brands fa-researchgate"></i> ResearchGate</a>{% endif %}
   {% if site.social.orcid != "" %}<a class="btn btn-ghost" href="{{ site.social.orcid }}" target="_blank" rel="noopener"><i class="fa-brands fa-orcid"></i> ORCID</a>{% endif %}
 </p>
