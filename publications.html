@@ -11,7 +11,7 @@ lead: Selected journal papers, conference papers and talks. The full list is ava
   <ol class="pubs">
     {% for p in group.items %}
     <li>
-      <span class="badge badge-{{ p.type }}">{{ p.type }}</span>
+      <span class="badge badge-{{ p.type }}">{{ p.type | replace: "-", " " }}</span>
       <h3>{% if p.url != "" %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
       <p class="muted">{{ p.authors | replace: "M. Balanici", "<strong>M. Balanici</strong>" }} · <em>{{ p.venue }}</em>{% if p.volume and p.volume != "" %}, vol. {{ p.volume }}{% endif %}{% if p.issue and p.issue != "" %}, no. {{ p.issue }}{% endif %}{% if p.paper_id and p.paper_id != "" %}, {{ p.paper_id }}{% endif %}{% if p.pages and p.pages != "" %}, pp. {{ p.pages }}{% endif %}{% if p.place and p.place != "" %}, {{ p.place }}{% endif %}</p>
     </li>
