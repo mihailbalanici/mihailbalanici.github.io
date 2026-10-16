@@ -1,6 +1,6 @@
 # Key publications, newest first. Add new entries at the top.
 #
-# type:     journal | conference | white-paper | talk
+# type:     journal | magazine | conference | white-paper | talk
 # venue:    conference or journal name only
 # volume, issue:  journals only (leave out or "" if not applicable)
 # paper_id: conference paper/session ID, e.g. M3Z.3 (leave "" if none)
@@ -43,6 +43,16 @@
   year: 2026
   type: conference
   url: "https://ieeexplore.ieee.org/document/11524858"
+
+- title: A Roadmap on Optical X-Haul Technologies for Next-Generation Mobile Networks
+  authors: M. Balanici, S. M. Kouhini, M. Aghaeipour, S. Kühl, B. Shariati, J. K. Fischer, C. Schubert, K. Habel, S. Pachnicke, A. Drummond, T. Bauschert, V. Jungnickel, R. Freund
+  venue: IEEE Communications Magazine
+  volume: 63
+  issue: 9
+  pages: "102-108"
+  year: 2025
+  type: magazine
+  url: "https://ieeexplore.ieee.org/document/11152699"
 
 - title: Autonomous Link-Capacity Adjustment using TeraFlowSDN Controller in a Disaggregated Optical Network Testbed
   authors: M. Balanici, B. Shariati, M. R. Raza, P. Safari, A. Jafari, V. Karunakaran, A. Autenrieth, J. K. Fischer, R. Freund
