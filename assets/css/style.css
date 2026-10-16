@@ -309,3 +309,4 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --red: #ff8a80; --red-soft: #3a1c1c; } }
 :root[data-theme="dark"] { --red: #ff8a80; --red-soft: #3a1c1c; }
 .badge-white-paper { background: var(--red-soft); color: var(--red); }
+.badge-magazine { background: var(--accent-soft); color: var(--accent); }
