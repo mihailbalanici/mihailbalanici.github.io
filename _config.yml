@@ -32,7 +32,7 @@ nav:
   - { title: Skills,         url: /skills/ }
   - { title: Certifications, url: /certifications/ }
   - { title: Projects,       url: /projects/ }
-  - { title: Blog,           url: /blog/ }
+  # - { title: Blog,           url: /blog/ }
   - { title: Photography,    url: /photography/ }
 
 # Blog
