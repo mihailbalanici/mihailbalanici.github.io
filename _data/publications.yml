@@ -54,6 +54,14 @@
   type: magazine
   url: "https://ieeexplore.ieee.org/document/11152699"
 
+- title: "Evaluation of the Environmental Impact of ICT Solutions in the Context of F5G"
+  authors: M. Balanici, F. Mawla, J. K. Fischer, B. Shariati, R. Freund
+  venue: ETSI ISG F5G Green Workshop
+  place: Chengdu, China
+  year: 2025
+  type: talk
+  url: "https://www.etsi.org/blogs/etsi-isg-f5g-green-workshop-to-build-a-greener-optical-network-in-f5g-a-and-beyond/"
+
 - title: Autonomous Link-Capacity Adjustment using TeraFlowSDN Controller in a Disaggregated Optical Network Testbed
   authors: M. Balanici, B. Shariati, M. R. Raza, P. Safari, A. Jafari, V. Karunakaran, A. Autenrieth, J. K. Fischer, R. Freund
   venue: 50th European Conference on Optical Communication (ECOC)
@@ -95,7 +103,7 @@
   url: "https://ieeexplore.ieee.org/document/9979485"
 
 - title: Classification and Forecasting of Real-Time Server Traffic Flows Employing Long Short-Term Memory for Hybrid E/O Data Center Networks
-  authors: M. Balanici et al.
+  authors: M. Balanici, S. Pachnicke
   venue: IEEE/OSA Journal of Optical Communications and Networking (JOCN)
   volume: 13
   issue: 5
@@ -104,8 +112,18 @@
   type: journal
   url: "https://ieeexplore.ieee.org/document/9353854"
 
+- title: Multi-Step Forecasting of Intense Traffic Streams Using Machine Learning for Optical Circuit Switching
+  authors: M. Balanici, S. Pachnicke
+  venue: 21st International Conference on Transparent Optical Networks (ICTON)
+  paper_id: "Fr.A3.4"
+  pages: "1–4"
+  place: Angers, France
+  year: 2019
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/8840407"
+
 - title: Machine Learning-based Traffic Prediction for Optical Switching Resource Allocation in Hybrid Intra-Data Center Networks
-  authors: M. Balanici et al.
+  authors: M. Balanici, S. Pachnicke
   venue: Optical Fiber Communication Conference (OFC)
   paper_id: "Th1H.4"
   pages: "1–3"
@@ -115,7 +133,7 @@
   url: "https://ieeexplore.ieee.org/document/8696381"
 
 - title: Hybrid Electro-Optical Intra-Data Center Networks Tailored for Different Traffic Classes
-  authors: M. Balanici et al.
+  authors: M. Balanici, S. Pachnicke
   venue: IEEE/OSA Journal of Optical Communications and Networking (JOCN)
   volume: 10
   issue: 11
@@ -123,3 +141,13 @@
   year: 2018
   type: journal
   url: "https://ieeexplore.ieee.org/document/8542837"
+
+- title: Traffic-Modeling-Based Design and Evaluation of a Hybrid Electro-Optical Intra-Data Center Network
+  authors: M. Balanici, S. Pachnicke
+  venue: 18th ITG-Symposium on Photonic Networks
+  paper_id: "ITG-Fachbericht 272"
+  pages: "14-21"
+  place: Leipzig, Germany
+  year: 2017
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/7988076"
