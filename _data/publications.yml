@@ -1,11 +1,11 @@
 # Key publications, newest first. Add new entries at the top.
-# type: conference | journal | demo
+# type: journal | conference | talk
 - title: Autonomous Link-Capacity Adjustment using TeraFlowSDN Controller in a Disaggregated Optical Network Testbed
   authors: M. Balanici et al.
   venue: European Conference on Optical Communication (ECOC), D4 Demo
   place: Frankfurt am Main, Germany
   year: 2024
-  type: demo
+  type: conference
   url: "https://scholar.google.de/citations?view_op=view_citation&hl=en&user=P3YThigAAAAJ&citation_for_view=P3YThigAAAAJ:7PzlFSSx8tAC"
 
 - title: Live Demonstration of Autonomous Link-Capacity Adjustment in Optical Metro-Aggregation Networks
@@ -13,7 +13,7 @@
   venue: Optical Fiber Communication Conference (OFC), M3Z.3, pp. 1–3
   place: San Diego, CA, USA
   year: 2024
-  type: demo
+  type: conference
   url: "https://ieeexplore.ieee.org/abstract/document/10526615"
 
 - title: Demonstration of a Real-Time ML Pipeline for Traffic Forecasting in AI-Assisted F5G Optical Access Networks
