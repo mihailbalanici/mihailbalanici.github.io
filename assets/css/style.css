@@ -141,7 +141,8 @@ code, pre { font-family: var(--font-mono); font-size: .9em; }
 /* ---------- Layout blocks ---------- */
 main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 .page-head { margin-bottom: 2.25rem; }
-.lead { color: var(--muted); font-size: 1.08rem; max-width: 60ch; }
+.lead { color: var(--muted); font-size: 1.08rem; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+@media (max-width: 640px) { .lead { text-align: left; } }
 .block { margin-top: 3.25rem; }
 .block > h2 { margin-bottom: 1.25rem; }
 
