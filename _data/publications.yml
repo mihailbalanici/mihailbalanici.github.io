@@ -1,6 +1,6 @@
 # Key publications, newest first. Add new entries at the top.
 #
-# type:     journal | conference | talk
+# type:     journal | conference | white-paper | talk
 # venue:    conference or journal name only
 # volume, issue:  journals only (leave out or "" if not applicable)
 # paper_id: conference paper/session ID, e.g. M3Z.3 (leave "" if none)
@@ -24,6 +24,15 @@
   year: 2026
   type: talk
   url: "https://netsoft2026.ieee-netsoft.org/workshops"
+
+- title: "Strategies for AI adoption in fixed networks: Challenges, use cases and future directions"
+  authors: B. Shariati, A. Mitrovska, M. Balanici, P. Safari, H. Zaid, J. Fischer, R. Freund, M. Sena, R. Schatzmayr, O. Ferveur, N. Dupuis, J. P. Fernandez-Palacios Gimenez, J. Tang, M.-G. Dokubo, M. Aniako, V. Breitenbach, M. Ebert, D. Hock, Y. Pointurier, J. Sandell, D. Henriksson, H. Abrahamsson, K. Makonyi, J. J. Pedreño Manresa, F. Arpanaei
+  venue: European Telecommunications Standards Institute (ETSI)
+  volume, issue: ETSI White Paper No. 70
+  pages: "1-47"
+  year: 2026
+  type: white-paper
+  url: "https://www.etsi.org/flipbook/?pdf=https%3A%2F%2Fwww.etsi.org%2Fwp-content%2Fuploads%2FETSI-WP-70-Strategies-for-AI-Adoption-in-Fixed-Networks-Challenges_Use-Cases_and-Future-Directions.pdf"
 
 - title: Distributed Intelligence Framework with Privacy-Preserving Features for FTTR Network Monitoring and Automation
   authors: M. Sica, M. Balanici, M. R. Raza, B. Shariati, J. K. Fischer, R. Freund
