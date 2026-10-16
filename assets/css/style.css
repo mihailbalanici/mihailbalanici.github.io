@@ -298,3 +298,7 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 /* Home page intro: justified text (Blocksatz) with hyphenation to avoid large word gaps */
 .about p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 @media (max-width: 640px) { .about p { text-align: left; } }  /* phones: columns too narrow for justified text */
+
+/* Publications: paper ID and page numbers */
+.pubs .pub-ids { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; margin-top: .3rem; font-family: var(--font-mono); font-size: .78rem; }
+.pubs .pub-ids .muted { margin-right: .3rem; }
