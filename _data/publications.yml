@@ -59,6 +59,15 @@
   type: conference
   url: "https://ieeexplore.ieee.org/document/11524858"
 
+- title: Passive optische Netze zur Reduzierung von Treibhausgasemissionen im Fertigungssektor
+  authors: M. Balanici, F. Mawla, J. K. Fischer, B. Shariati, R. Freund
+  venue: Green ICT Connect 2025
+  place: Berlin, Germany
+  month: October
+  year: 2025
+  type: poster
+  url: "https://www.forschungsfabrik-mikroelektronik.de/de/ueber-die-fmd/Veranstaltungen/review-green-ict-connect-2025.html"
+
 - title: "Evaluation of the Environmental Impact of ICT Solutions in the Context of F5G"
   authors: M. Balanici, F. Mawla, J. K. Fischer, B. Shariati, R. Freund
   venue: ETSI ISG F5G Green Workshop
