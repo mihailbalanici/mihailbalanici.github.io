@@ -20,7 +20,7 @@
 
 - title: Joint Cross-Domain Monitoring and Optimization of Radio Access, Optical Access and Optical Transport Networks
   authors: M. Balanici, A. Dandekar, S. Kouhini, V. Gowtham, B. Shariati, J. K. Fischer, J. Schulz-Zander, K. Habel, M. Corici, T. Magedanz, V. Jungnickel, R. Freund
-  venue: 2026 International Conference on Optical Network Design and Modelling (ONDM)
+  venue: International Conference on Optical Network Design and Modelling (ONDM)
   paper_id: ""
   pages: "1-6"
   place: Munich, Germany
@@ -28,6 +28,15 @@
   year: 2026
   type: conference
   url: "https://ieeexplore.ieee.org/document/11618808"
+
+- title: Applications of Data Spaces for Sovereign Network Automation
+  authors: M. Balanici, A. Mitrovska, B. Shariati, A. Jafari, P. Safari, J. K. Fischer, R. Freund
+  venue: International Conference on Optical Network Design and Modelling (ONDM), "Workshop: A decade of AI/ML for optical networks: What is missing for carrier-grade intelligence?"
+  place: Munich, Germany
+  month: May
+  year: 2026
+  type: talk
+  url: "https://ondm2026.de/workshops"
 
 - title: "Strategies for AI adoption in fixed networks: Challenges, use cases and future directions"
   authors: B. Shariati, A. Mitrovska, M. Balanici, P. Safari, H. Zaid, J. Fischer, R. Freund, M. Sena, R. Schatzmayr, O. Ferveur, N. Dupuis, J. P. Fernandez-Palacios Gimenez, J. Tang, M.-G. Dokubo, M. Aniako, V. Breitenbach, M. Ebert, D. Hock, Y. Pointurier, J. Sandell, D. Henriksson, H. Abrahamsson, K. Makonyi, J. J. Pedreño Manresa, F. Arpanaei
