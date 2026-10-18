@@ -203,6 +203,17 @@
   type: conference
   url: "https://ieeexplore.ieee.org/document/8840407"
 
+- title: Server Traffic Prediction Using Machine Learning for Optical Circuit Switching Scheduling
+  authors: M. Balanici, S. Pachnicke
+  venue: 20th ITG-Symposium on Photonic Networks
+  paper_id: "ITG-Fachbericht 287"
+  pages: "34-36"
+  place: Leipzig, Germany
+  month: May
+  year: 2019
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/8727117"
+
 - title: Machine Learning-based Traffic Prediction for Optical Switching Resource Allocation in Hybrid Intra-Data Center Networks
   authors: M. Balanici, S. Pachnicke
   venue: Optical Fiber Communication Conference (OFC)
