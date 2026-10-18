@@ -58,7 +58,7 @@
   year: 2025
   type: talk
   url: "https://www.etsi.org/blogs/etsi-isg-f5g-green-workshop-to-build-a-greener-optical-network-in-f5g-a-and-beyond/"
-  
+
 - title: A Roadmap on Optical X-Haul Technologies for Next-Generation Mobile Networks
   authors: M. Balanici, S. M. Kouhini, M. Aghaeipour, S. Kühl, B. Shariati, J. K. Fischer, C. Schubert, K. Habel, S. Pachnicke, A. Drummond, T. Bauschert, V. Jungnickel, R. Freund
   venue: IEEE Communications Magazine
@@ -71,17 +71,6 @@
   type: magazine
   url: "https://ieeexplore.ieee.org/document/11152699"
 
-- title: Data Sovereign LLM-Assisted Automation Platform for Open Optical and Packet Transport Networks
-  authors: B. Shariati, A. Mitrovska, H. Zaid, M. Balanici, A. Jafari, P. Safari, J. K. Fischer, R. Freund
-  venue: IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)
-  paper_id: ""
-  pages: "1–6"
-  place: Barcelona, Spain
-  month: May
-  year: 2025
-  type: conference
-  url: "https://ieeexplore.ieee.org/document/11140539"
-
 - title: Empowering Smart Factories With Open RAN
   authors: A. C. Drummond, O. T. Başaran, A. Dandekar, M. Franke, M. Balanici, I. Zacarias, Í. Brasileiro, C. V. Phung, E. Tohidi, N. K. Khani, S. Kouhini, L. Miretti, Z. Utkovski, E. Durmaz, J. Schulz-Zander, S. Maghsudi, S. Schmid, F. Dressler, B. Shariati, J. K. Fischer, R. Freund, S. Stańczak, A. Jukan
   venue: IEEE Communications Standards Magazine
@@ -93,6 +82,17 @@
   year: 2025
   type: magazine
   url: "https://ieeexplore.ieee.org/document/11010844"
+
+- title: Data Sovereign LLM-Assisted Automation Platform for Open Optical and Packet Transport Networks
+  authors: B. Shariati, A. Mitrovska, H. Zaid, M. Balanici, A. Jafari, P. Safari, J. K. Fischer, R. Freund
+  venue: IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)
+  paper_id: ""
+  pages: "1–6"
+  place: Barcelona, Spain
+  month: May
+  year: 2025
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/11140539"
 
 - title: Multi-Agent Design for LLM-assisted Network Management
   authors: H. Zaid, P. Safari, B. Shariati, A. Jafari, M. Balanici, J. K. Fischer
