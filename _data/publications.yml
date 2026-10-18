@@ -104,6 +104,28 @@
   type: conference
   url: "https://ieeexplore.ieee.org/document/10526708"
 
+- title: "F5G OpenLab: Enabling Twin Transition through Ubiquitous Fiber Connectivity"
+  authors: M. Balanici, B. Shariati, P. Safari, P. Chojecki, M. Chemnitz, D. Przewozny, J. K. Fischer, R. Freund
+  venue: 23rd International Conference on Transparent Optical Networks (ICTON)
+  paper_id: "Tu.C1.3"
+  pages: "1–4"
+  place: Bucharest, Romania
+  month: July
+  year: 2023
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/10207224"
+
+- title: Telemetry Framework with Data Sovereignty Features
+  authors: B. Shariati, H. Qarawlus, S. Biehs, J.-J. Pedreno-Manresa, P. Safari, M. Balanici, A. Bouchedoub, H. Haße, A. Autenrieth, J. K. Fischer, R. Freund
+  venue: Optical Fiber Communication Conference (OFC)
+  paper_id: "M3G.2"
+  pages: "1–3"
+  place: San Diego, California, United States
+  month: March
+  year: 2023
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/10116581"
+
 - title: Demonstration of a Real-Time ML Pipeline for Traffic Forecasting in AI-Assisted F5G Optical Access Networks
   authors: M. Balanici, G. Bergk, P. Safari, B. Shariati, J. K. Fischer, R. Freund
   venue: European Conference on Optical Communication (ECOC)
