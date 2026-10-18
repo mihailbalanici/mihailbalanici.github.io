@@ -9,6 +9,15 @@
 # month:    e.g. "Mar." or "March"; shown together with the year (leave "" if none)
 # Any field left empty is simply not shown.
 
+- title: "Ubiquitous Fiber Connectivity for a Green and Sustainable Digital Transformation: From Industrial Applications to Optical Transport"
+  authors: M. Balanici, F. Mawla, B. Shariati, J. K. Fischer, R. Freund
+  venue: 12th IEEE International Conference on Network Softwarization (NetSoft 2026) and 5th International Workshop on Green and Sustainable Networking (GreenNet 2026)
+  place: Berlin, Germany
+  month: July
+  year: 2026
+  type: talk
+  url: "https://netsoft2026.ieee-netsoft.org/workshops"
+
 - title: Joint Cross-Domain Monitoring and Optimization of Radio Access, Optical Access and Optical Transport Networks
   authors: M. Balanici, A. Dandekar, S. Kouhini, V. Gowtham, B. Shariati, J. K. Fischer, J. Schulz-Zander, K. Habel, M. Corici, T. Magedanz, V. Jungnickel, R. Freund
   venue: 2026 International Conference on Optical Network Design and Modelling (ONDM)
@@ -19,15 +28,6 @@
   year: 2026
   type: conference
   url: "https://ieeexplore.ieee.org/document/11618808"
-
-- title: "Ubiquitous Fiber Connectivity for a Green and Sustainable Digital Transformation: From Industrial Applications to Optical Transport"
-  authors: M. Balanici, F. Mawla, B. Shariati, J. K. Fischer, R. Freund
-  venue: 12th IEEE International Conference on Network Softwarization (NetSoft 2026) and 5th International Workshop on Green and Sustainable Networking (GreenNet 2026)
-  place: Berlin, Germany
-  month: July
-  year: 2026
-  type: talk
-  url: "https://netsoft2026.ieee-netsoft.org/workshops"
 
 - title: "Strategies for AI adoption in fixed networks: Challenges, use cases and future directions"
   authors: B. Shariati, A. Mitrovska, M. Balanici, P. Safari, H. Zaid, J. Fischer, R. Freund, M. Sena, R. Schatzmayr, O. Ferveur, N. Dupuis, J. P. Fernandez-Palacios Gimenez, J. Tang, M.-G. Dokubo, M. Aniako, V. Breitenbach, M. Ebert, D. Hock, Y. Pointurier, J. Sandell, D. Henriksson, H. Abrahamsson, K. Makonyi, J. J. Pedreño Manresa, F. Arpanaei
@@ -50,6 +50,15 @@
   type: conference
   url: "https://ieeexplore.ieee.org/document/11524858"
 
+- title: "Evaluation of the Environmental Impact of ICT Solutions in the Context of F5G"
+  authors: M. Balanici, F. Mawla, J. K. Fischer, B. Shariati, R. Freund
+  venue: ETSI ISG F5G Green Workshop
+  place: Chengdu, China
+  month: October
+  year: 2025
+  type: talk
+  url: "https://www.etsi.org/blogs/etsi-isg-f5g-green-workshop-to-build-a-greener-optical-network-in-f5g-a-and-beyond/"
+  
 - title: A Roadmap on Optical X-Haul Technologies for Next-Generation Mobile Networks
   authors: M. Balanici, S. M. Kouhini, M. Aghaeipour, S. Kühl, B. Shariati, J. K. Fischer, C. Schubert, K. Habel, S. Pachnicke, A. Drummond, T. Bauschert, V. Jungnickel, R. Freund
   venue: IEEE Communications Magazine
@@ -62,14 +71,39 @@
   type: magazine
   url: "https://ieeexplore.ieee.org/document/11152699"
 
-- title: "Evaluation of the Environmental Impact of ICT Solutions in the Context of F5G"
-  authors: M. Balanici, F. Mawla, J. K. Fischer, B. Shariati, R. Freund
-  venue: ETSI ISG F5G Green Workshop
-  place: Chengdu, China
-  month: October
+- title: Data Sovereign LLM-Assisted Automation Platform for Open Optical and Packet Transport Networks
+  authors: B. Shariati, A. Mitrovska, H. Zaid, M. Balanici, A. Jafari, P. Safari, J. K. Fischer, R. Freund
+  venue: IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)
+  paper_id: ""
+  pages: "1–6"
+  place: Barcelona, Spain
+  month: May
   year: 2025
-  type: talk
-  url: "https://www.etsi.org/blogs/etsi-isg-f5g-green-workshop-to-build-a-greener-optical-network-in-f5g-a-and-beyond/"
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/11140539"
+
+- title: Empowering Smart Factories With Open RAN
+  authors: A. C. Drummond, O. T. Başaran, A. Dandekar, M. Franke, M. Balanici, I. Zacarias, Í. Brasileiro, C. V. Phung, E. Tohidi, N. K. Khani, S. Kouhini, L. Miretti, Z. Utkovski, E. Durmaz, J. Schulz-Zander, S. Maghsudi, S. Schmid, F. Dressler, B. Shariati, J. K. Fischer, R. Freund, S. Stańczak, A. Jukan
+  venue: IEEE Communications Standards Magazine
+  volume: 9
+  issue: 3
+  pages: "78-85"
+  publisher: IEEE
+  month: September
+  year: 2025
+  type: magazine
+  url: "https://ieeexplore.ieee.org/document/11010844"
+
+- title: Multi-Agent Design for LLM-assisted Network Management
+  authors: H. Zaid, P. Safari, B. Shariati, A. Jafari, M. Balanici, J. K. Fischer
+  venue: Optical Fiber Communication Conference (OFC)
+  paper_id: "W1A.4"
+  pages: "1–3"
+  place: San Francisco, California, United States
+  month: April
+  year: 2025
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/11046468"
 
 - title: Autonomous Link-Capacity Adjustment using TeraFlowSDN Controller in a Disaggregated Optical Network Testbed
   authors: M. Balanici, B. Shariati, M. R. Raza, P. Safari, A. Jafari, V. Karunakaran, A. Autenrieth, J. K. Fischer, R. Freund
