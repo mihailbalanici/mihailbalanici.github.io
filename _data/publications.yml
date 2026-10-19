@@ -167,6 +167,15 @@
   type: conference
   url: "https://ieeexplore.ieee.org/document/10207224"
 
+- title: ML-assisted Capacity Adjustment in Optical Access-Metro Aggregation Networks
+  authors: M. Balanici, B. Shariati, P. Safari, J. K. Fischer
+  venue: Berlin 6G Conference
+  place: Berlin, Germany
+  month: June
+  year: 2023
+  type: talk
+  url: "https://6g-ric.de/6g-ric-berlin-6g-conference-june-2023/"
+
 - title: Telemetry Framework with Data Sovereignty Features
   authors: B. Shariati, H. Qarawlus, S. Biehs, J.-J. Pedreno-Manresa, P. Safari, M. Balanici, A. Bouchedoub, H. Haße, A. Autenrieth, J. K. Fischer, R. Freund
   venue: Optical Fiber Communication Conference (OFC)
