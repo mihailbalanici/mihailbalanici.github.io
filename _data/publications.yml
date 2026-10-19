@@ -9,6 +9,16 @@
 # month:    e.g. "Mar." or "March"; shown together with the year (leave "" if none)
 # Any field left empty is simply not shown.
 
+- title: The Pathway from F5G-A to F6G
+  authors: R. Muñoz, J. Tang, J. Jin,	R. Vilatla, W. Akbar, L. Gifre, M. Balanici, B. Shariati, M. Brunner, Y. Lin, P. Chanclou, O. Ferveur, J. P. Fernández-Palacios
+  publisher: European Telecommunications Standards Institute (ETSI)
+  volume, issue: ETSI White Paper No. 72
+  pages: "1-35"
+  month: November
+  year: 2026
+  type: white-paper
+  url: "https://www.etsi.org/resources/"
+
 - title: "Ubiquitous Fiber Connectivity for a Green and Sustainable Digital Transformation: From Industrial Applications to Optical Transport"
   authors: M. Balanici, F. Mawla, B. Shariati, J. K. Fischer, R. Freund
   venue: 12th IEEE International Conference on Network Softwarization (NetSoft 2026) and 5th International Workshop on Green and Sustainable Networking (GreenNet 2026)
@@ -265,6 +275,17 @@
   year: 2018
   type: journal
   url: "https://ieeexplore.ieee.org/document/8542837"
+
+- title: Intra-Data Center Network Optimization by Means of Application-Based Traffic Modeling and Optical Circuit Switching
+  authors: M. Balanici, S. Pachnicke
+  venue: 20th International Conference on Transparent Optical Networks (ICTON)
+  paper_id: "We.C4.5"
+  pages: "1–4"
+  place: Bucharest, Romania
+  month: July
+  year: 2018
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/8473810"
 
 - title: Traffic-Modeling-Based Design and Evaluation of a Hybrid Electro-Optical Intra-Data Center Network
   authors: M. Balanici, S. Pachnicke
