@@ -4,7 +4,7 @@
 
 - group: Programming
   icon: fa-solid fa-code
-  items: [Python, Matlab, SQL, NoSQL, Time-Series Databases (TSDB), Shell scripting, PLC programming]
+  items: [Python, Matlab, SQL, NoSQL, Time-Series Databases (TSDB), Vibe coding, Shell scripting, PLC programming]
 
 - group: Data & Streaming
   icon: fa-solid fa-database
