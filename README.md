@@ -1,4 +1,4 @@
-# Mihail Balanici — Personal Website
+# Personal Website
 
 A Jekyll site for GitHub Pages. No build setup is needed: push it to your
 `username.github.io` repository and GitHub builds it automatically.
