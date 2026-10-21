@@ -310,3 +310,4 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 :root[data-theme="dark"] { --red: #ff8a80; --red-soft: #3a1c1c; }
 .badge-white-paper { background: var(--red-soft); color: var(--red); }
 .badge-magazine { background: var(--accent-soft); color: var(--accent); }
+.list .desc { margin-top: .45rem; font-size: .95rem; }
