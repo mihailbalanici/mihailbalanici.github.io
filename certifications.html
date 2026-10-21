@@ -28,6 +28,7 @@ lead: Certifications, licenses, scholarships and awards.
       <div>
         <h3>{{ a.name }}</h3>
         <p class="muted">{{ a.issuer }} · {{ a.year }}</p>
+        {% if a.description and a.description != "" %}<p class="desc">{{ a.description }}</p>{% endif %}
       </div>
     </li>
     {% endfor %}
