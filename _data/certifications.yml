@@ -1,24 +1,53 @@
 # Add new certifications at the top. Leave url empty if there is no credential link.
 certifications:
-  - name: Cisco Certified Network Associate (CCNA) — Trainee program
-    issuer: Cisco Networking Academy
-    year: 2010 – 2011
+  - name: Network Automation Engineering Specialization
+    issuer: Cisco
+    year: 2025
+    url: "https://www.coursera.org/account/accomplishments/specialization/8D3OAMVXB1E2"
+
+  - name: Python Programmer
+    issuer: DataCamp
+    year: 2023
+    url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/1d54535ee6ad1ca1a3932b1f8e4b40085c30e023"
+
+  - name: Machine Learning
+    issuer: Coursera
+    year: 2021
+    url: "https://www.coursera.org/account/accomplishments/verify/YXX9NJD36HXS"
+
+  - name: telc Deutsch C1 Hochschule
+    issuer: telc gGmbH
+    year: 2019
     url: ""
-  - name: Sport Boating License (SBF-See & SBF-Binnen)
+    
+  - name: Recreational Boating License – Sea & Inland Waters (SBF See & SBF Binnen)
     issuer: Germany
-    year: ""
+    year: "2019"
     url: ""
 
 awards:
+  - name: EFA Scholarship
+    issuer: European Forum Alpbach (EFA)
+    year: 2012
+    description: Awarded through a jury-based selection to outstanding first-time participants, with emphasis on motivation, potential for social impact, and diverse personal and socioeconomic backgrounds.
+    
   - name: DAAD Scholarship
     issuer: German Academic Exchange Service (DAAD)
     year: 2011 – 2013
+    description: Full funding for the two-year M.Sc. in Communications Engineering at Ulm University. One of three scholarships awarded to students from Moldova through a jury-based selection.
+    
   - name: Orange Scholarship
     issuer: Orange Moldova
     year: 2009
+    description: One of two scholarships awarded by Orange Moldova to students of the Technical University of Moldova through a competitive selection.
+    
   - name: Presidential Medal for Excellence
     issuer: President of the Republic of Moldova
     year: 2009
+    description: "Awarded to Moldova’s 20 top-performing students in recognition of outstanding academic achievement and extracurricular engagement."
+    
   - name: Moldcell Scholarship
-    issuer: Moldcell, TeliaSonera Group
+    issuer: Moldcell (TeliaSonera Group)
     year: 2008
+    description: Awarded through a competitive selection for excellent academic results and active extracurricular involvement.
+    
