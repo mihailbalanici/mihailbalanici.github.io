@@ -8,11 +8,11 @@
 
 - group: Data & Streaming
   icon: fa-solid fa-database
-  items: [Apache Kafka, Apache Spark, TICK stack, Telegraf, InfluxDB, Chronograf, Kapacitor, MongoDB, Redis, Grafana]
+  items: [Apache Kafka, Apache Spark, TICK stack, Telegraf, InfluxDB, Chronograf, Kapacitor, Elasticsearch, MongoDB, Redis, Grafana]
 
 - group: Machine Learning & AI
   icon: fa-solid fa-brain
-  items: [PyTorch, TensorFlow, scikit-learn, Large Language Models (LLMs), Large Multimodal Models (LMMs)]
+  items: [PyTorch, TensorFlow, scikit-learn, Large Language Models (LLMs), Large Multimodal Models (LMMs), Time-Series Forecasting]
 
 - group: Infrastructure & DevOps
   icon: fa-solid fa-server
