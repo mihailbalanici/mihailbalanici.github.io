@@ -311,3 +311,12 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 .badge-white-paper { background: var(--red-soft); color: var(--red); }
 .badge-magazine { background: var(--accent-soft); color: var(--accent); }
 .list .desc { margin-top: .45rem; font-size: .95rem; }
+
+/* Publications: clickable type legend / filter */
+.pub-filter { display: flex; flex-wrap: wrap; gap: .5rem; margin: -.75rem 0 2rem; }
+.pub-filter button { font: inherit; font-size: .72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  padding: .3rem .65rem; border: 1px solid transparent; border-radius: 6px; cursor: pointer; }
+.pub-filter button span { opacity: .65; margin-left: .3rem; }
+.pub-filter button:hover { border-color: currentColor; }
+.pub-filter button.is-active { border-color: currentColor; box-shadow: 0 0 0 1px currentColor inset; }
+.pub-year[hidden], .pubs > li[hidden] { display: none; }
