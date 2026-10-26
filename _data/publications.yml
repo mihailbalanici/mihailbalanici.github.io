@@ -12,8 +12,8 @@
 - title: The Pathway from F5G-A to F6G
   authors: R. Muñoz, J. Tang, J. Jin,	R. Vilatla, W. Akbar, L. Gifre, M. Balanici, B. Shariati, M. Brunner, Y. Lin, P. Chanclou, O. Ferveur, J. P. Fernández-Palacios
   publisher: European Telecommunications Standards Institute (ETSI)
-  volume, issue: ETSI White Paper No. 72
-  pages: "1-35"
+  venue: ETSI White Paper No. 72
+  pages: "1–35"
   month: November
   year: 2026
   type: white-paper
@@ -32,7 +32,7 @@
   authors: M. Balanici, A. Dandekar, S. Kouhini, V. Gowtham, B. Shariati, J. K. Fischer, J. Schulz-Zander, K. Habel, M. Corici, T. Magedanz, V. Jungnickel, R. Freund
   venue: International Conference on Optical Network Design and Modelling (ONDM)
   paper_id: ""
-  pages: "1-6"
+  pages: "1–6"
   place: Munich, Germany
   month: May
   year: 2026
@@ -51,8 +51,8 @@
 - title: "Strategies for AI adoption in fixed networks: Challenges, use cases and future directions"
   authors: B. Shariati, A. Mitrovska, M. Balanici, P. Safari, H. Zaid, J. Fischer, R. Freund, M. Sena, R. Schatzmayr, O. Ferveur, N. Dupuis, J. P. Fernandez-Palacios Gimenez, J. Tang, M.-G. Dokubo, M. Aniako, V. Breitenbach, M. Ebert, D. Hock, Y. Pointurier, J. Sandell, D. Henriksson, H. Abrahamsson, K. Makonyi, J. J. Pedreño Manresa, F. Arpanaei
   publisher: European Telecommunications Standards Institute (ETSI)
-  volume, issue: ETSI White Paper No. 70
-  pages: "1-47"
+  venue: ETSI White Paper No. 70
+  pages: "1–47"
   month: April
   year: 2026
   type: white-paper
@@ -62,7 +62,7 @@
   authors: M. Sica, M. Balanici, M. R. Raza, B. Shariati, J. K. Fischer, R. Freund
   venue: Optical Fiber Communication Conference (OFC)
   paper_id: "M3Z.8"
-  pages: "1-3"
+  pages: "1–3"
   place: Los Angeles, California, United States
   month: March
   year: 2026
@@ -92,7 +92,7 @@
   venue: IEEE Communications Magazine
   volume: 63
   issue: 9
-  pages: "102-108"
+  pages: "102–108"
   publisher: IEEE
   month: September
   year: 2025
@@ -104,7 +104,7 @@
   venue: IEEE Communications Standards Magazine
   volume: 9
   issue: 3
-  pages: "78-85"
+  pages: "78–85"
   publisher: IEEE
   month: September
   year: 2025
@@ -137,7 +137,7 @@
   authors: M. Balanici, B. Shariati, M. R. Raza, P. Safari, A. Jafari, V. Karunakaran, A. Autenrieth, J. K. Fischer, R. Freund
   venue: 50th European Conference on Optical Communication (ECOC)
   paper_id: "D4 Demo"
-  pages: "1-2"
+  pages: "1–2"
   place: Frankfurt am Main, Germany
   month: September
   year: 2024
@@ -246,7 +246,7 @@
   authors: M. Balanici, S. Pachnicke
   venue: 20th ITG-Symposium on Photonic Networks
   paper_id: "ITG-Fachbericht 287"
-  pages: "34-36"
+  pages: "34–36"
   place: Leipzig, Germany
   month: May
   year: 2019
@@ -291,7 +291,7 @@
   authors: M. Balanici, S. Pachnicke
   venue: 18th ITG-Symposium on Photonic Networks
   paper_id: "ITG-Fachbericht 272"
-  pages: "14-21"
+  pages: "14–21"
   place: Leipzig, Germany
   month: May
   year: 2017
