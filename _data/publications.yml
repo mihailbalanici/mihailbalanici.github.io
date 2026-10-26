@@ -111,6 +111,17 @@
   type: magazine
   url: "https://ieeexplore.ieee.org/document/11010844"
 
+- title: "NOBS: A Data-Sovereign Telemetry and Monitoring Framework for 6G Networks"
+  authors: A. Jafari, B. Shariati, A. Mitrovska, P. Safari, M. Balanici, J. K. Fischer
+  venue: 25th Anniversary International Conference on Transparent Optical Networks (ICTON)
+  paper_id: ""
+  pages: "1–5"
+  place: Barcelona, Spain
+  month: July
+  year: 2025
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/11125124"
+
 - title: Data Sovereign LLM-Assisted Automation Platform for Open Optical and Packet Transport Networks
   authors: B. Shariati, A. Mitrovska, H. Zaid, M. Balanici, A. Jafari, P. Safari, J. K. Fischer, R. Freund
   venue: IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)
