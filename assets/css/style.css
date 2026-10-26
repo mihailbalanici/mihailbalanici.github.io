@@ -304,11 +304,17 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 .pubs .pub-ids { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; margin-top: .3rem; font-family: var(--font-mono); font-size: .78rem; }
 .pubs .pub-ids .muted { margin-right: .3rem; }
 
-/* White paper badge: red */
+/* Thesis badge: red */
 :root { --red: #b42318; --red-soft: #fdecea; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --red: #ff8a80; --red-soft: #3a1c1c; } }
 :root[data-theme="dark"] { --red: #ff8a80; --red-soft: #3a1c1c; }
-.badge-white-paper { background: var(--red-soft); color: var(--red); }
+.badge-thesis { background: var(--red-soft); color: var(--red); }
+
+/* Purple for white papers */
+:root { --purple: #6b3fa0; --purple-soft: #f1eafb; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --purple: #c4a7ff; --purple-soft: #2a2140; } }
+:root[data-theme="dark"] { --purple: #c4a7ff; --purple-soft: #2a2140; }
+.badge-white-paper { background: var(--purple-soft); color: var(--purple); }
 .badge-magazine { background: var(--accent-soft); color: var(--accent); }
 .list .desc { margin-top: .45rem; font-size: .95rem; }
 
