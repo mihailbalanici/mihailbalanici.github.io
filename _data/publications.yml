@@ -297,3 +297,24 @@
   year: 2017
   type: conference
   url: "https://ieeexplore.ieee.org/document/7988076"
+
+- title: "Cluster-based Aggregation for Inter-vehicle Communication"
+  authors: "M. Balanici"
+  venue: "M.Sc. Thesis, Ulm University"
+  pages: "1–91"
+  place: Ulm, Germany
+  year: 2013
+  month: December
+  type: thesis
+  url: "http://dx.doi.org/10.18725/OPARU-3198"
+
+- title: Short Paper: Towards Data-similarity-based Clustering for Inter-vehicle Communication
+  authors: S. Dietzel, M. Balanici, F. Kargl
+  venue: 2013 IEEE Vehicular Networking Conference (VNC)
+  paper_id: ""
+  pages: "238–241"
+  place: Boston, Massachusetts, United States
+  month: December
+  year: 2013
+  type: conference
+  url: "https://ieeexplore.ieee.org/document/6737622"
