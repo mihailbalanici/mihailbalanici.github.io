@@ -1,6 +1,6 @@
 # Key publications, newest first. Add new entries at the top.
 #
-# type:     journal | magazine | conference | white-paper | talk
+# type:     thesis | journal | magazine | conference | white-paper | talk | poster
 # venue:    conference or journal name only
 # volume, issue:  journals only (leave out or "" if not applicable)
 # paper_id: conference paper/session ID, e.g. M3Z.3 (leave "" if none)
@@ -135,9 +135,20 @@
 
 - title: Autonomous Link-Capacity Adjustment using TeraFlowSDN Controller in a Disaggregated Optical Network Testbed
   authors: M. Balanici, B. Shariati, M. R. Raza, P. Safari, A. Jafari, V. Karunakaran, A. Autenrieth, J. K. Fischer, R. Freund
+  venue: ETSI Software and Standards for Smart Networks and Services Conference & Hackfest (SNS4SNS)
+  paper_id: "PoC Demo"
+  pages: "1–3"
+  place: Sophia Antipolis, France
+  month: November
+  year: 2024
+  type: conference
+  url: "https://docbox.etsi.org/Workshop/2024/11_SNS4SNS/DEMOS/Autonomous%20Link-Capacity_Adjustment_using_TeraFlowSDN_Controller_in_a_Disaggregated_Optical_Network_Testbed_Behnam_Shariati.pdf"
+
+- title: Autonomous Link-Capacity Adjustment using TeraFlowSDN Controller in a Disaggregated Optical Network Testbed
+  authors: M. Balanici, B. Shariati, M. R. Raza, P. Safari, A. Jafari, V. Karunakaran, A. Autenrieth, J. K. Fischer, R. Freund
   venue: 50th European Conference on Optical Communication (ECOC)
   paper_id: "D4 Demo"
-  pages: "1–2"
+  pages: "244–245"
   place: Frankfurt am Main, Germany
   month: September
   year: 2024
@@ -298,8 +309,8 @@
   type: conference
   url: "https://ieeexplore.ieee.org/document/7988076"
 
-- title: "Cluster-based Aggregation for Inter-vehicle Communication"
-  authors: "M. Balanici"
+- title: Cluster-based Aggregation for Inter-vehicle Communication
+  authors: M. Balanici
   venue: "M.Sc. Thesis, Ulm University"
   pages: "1–91"
   place: Ulm, Germany
@@ -308,7 +319,7 @@
   type: thesis
   url: "http://dx.doi.org/10.18725/OPARU-3198"
 
-- title: Short Paper: Towards Data-similarity-based Clustering for Inter-vehicle Communication
+- title: "Short Paper: Towards Data-similarity-based Clustering for Inter-vehicle Communication"
   authors: S. Dietzel, M. Balanici, F. Kargl
   venue: 2013 IEEE Vehicular Networking Conference (VNC)
   paper_id: ""
