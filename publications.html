@@ -4,13 +4,20 @@ title: Publications & Talks
 permalink: /publications/
 lead: Selected journal papers, conference papers, white papers and talks. The full list is available on my Google Scholar and ResearchGate profiles.
 ---
+{% assign pub_types = "journal,magazine,conference,white-paper,talk,poster" | split: "," %}
+<div class="pub-filter" role="group" aria-label="Filter by type">
+  <button type="button" class="badge badge-all is-active" data-type="all" aria-pressed="true">All <span>{{ site.data.publications.size }}</span></button>
+  {% for t in pub_types %}{% assign n = site.data.publications | where: "type", t | size %}{% if n > 0 %}
+  <button type="button" class="badge badge-{{ t }}" data-type="{{ t }}" aria-pressed="false">{{ t | replace: "-", " " }} <span>{{ n }}</span></button>
+  {% endif %}{% endfor %}
+</div>
 {% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 {% for group in by_year %}
 <section class="pub-year">
   <h2>{{ group.name }}</h2>
   <ol class="pubs">
     {% for p in group.items %}
-    <li>
+    <li data-type="{{ p.type }}">
       <span class="badge badge-{{ p.type }}">{{ p.type | replace: "-", " " }}</span>
       <h3>{% if p.url != "" %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
       <p class="muted">{{ p.authors | replace: "M. Balanici", "<strong>M. Balanici</strong>" }} · <em>{{ p.venue }}</em>{% if p.volume and p.volume != "" %}, vol. {{ p.volume }}{% endif %}{% if p.issue and p.issue != "" %}, no. {{ p.issue }}{% endif %}{% if p.paper_id and p.paper_id != "" %}, {{ p.paper_id }}{% endif %}{% if p.pages and p.pages != "" %}, pp. {{ p.pages }}{% endif %}{% if p.place and p.place != "" %}, {{ p.place }}{% endif %}{% if p.publisher and p.publisher != "" %}, {{ p.publisher }}{% endif %}{% if p.month and p.month != "" %}, {{ p.month }} {{ p.year }}{% endif %}</p>
@@ -25,3 +32,20 @@ lead: Selected journal papers, conference papers, white papers and talks. The fu
   {% if site.social.researchgate != "" %}<a class="btn btn-ghost" href="{{ site.social.researchgate }}" target="_blank" rel="noopener"><i class="fa-brands fa-researchgate"></i> ResearchGate</a>{% endif %}
   {% if site.social.orcid != "" %}<a class="btn btn-ghost" href="{{ site.social.orcid }}" target="_blank" rel="noopener"><i class="fa-brands fa-orcid"></i> ORCID</a>{% endif %}
 </p>
+
+<script>
+  document.querySelectorAll(".pub-filter button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var t = btn.dataset.type;
+      document.querySelectorAll(".pub-filter button").forEach(function (b) {
+        b.classList.toggle("is-active", b === btn); b.setAttribute("aria-pressed", b === btn);
+      });
+      document.querySelectorAll(".pubs > li").forEach(function (li) {
+        li.hidden = !(t === "all" || li.dataset.type === t);
+      });
+      document.querySelectorAll(".pub-year").forEach(function (sec) {
+        sec.hidden = !sec.querySelector(".pubs > li:not([hidden])");
+      });
+    });
+  });
+</script>
