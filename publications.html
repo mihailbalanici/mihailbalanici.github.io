@@ -4,7 +4,7 @@ title: Publications & Talks
 permalink: /publications/
 lead: Selected journal papers, conference papers, white papers and talks. The full list is available on my Google Scholar and ResearchGate profiles.
 ---
-{% assign pub_types = "journal,magazine,conference,white-paper,talk,poster" | split: "," %}
+{% assign pub_types = "thesis,journal,magazine,conference,white-paper,talk,poster" | split: "," %}
 <div class="pub-filter" role="group" aria-label="Filter by type">
   <button type="button" class="badge badge-all is-active" data-type="all" aria-pressed="true">All <span>{{ site.data.publications.size }}</span></button>
   {% for t in pub_types %}{% assign n = site.data.publications | where: "type", t | size %}{% if n > 0 %}
