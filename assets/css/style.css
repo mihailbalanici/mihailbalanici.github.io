@@ -318,6 +318,12 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 .badge-magazine { background: var(--accent-soft); color: var(--accent); }
 .list .desc { margin-top: .45rem; font-size: .95rem; }
 
+/* Orange for talks */
+:root { --orange: #b25400; --orange-soft: #fdf0e2; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --orange: #ffb067; --orange-soft: #3a2817; } }
+:root[data-theme="dark"] { --orange: #ffb067; --orange-soft: #3a2817; }
+.badge-talk { background: var(--orange-soft); color: var(--orange); }
+
 /* Publications: clickable type legend / filter */
 .pub-filter { display: flex; flex-wrap: wrap; gap: .5rem; margin: -.75rem 0 2rem; }
 .pub-filter button { font: inherit; font-size: .72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
