@@ -1,12 +1,19 @@
 - role: Research Associate / Scientist
   org: Fraunhofer Heinrich Hertz Institute (HHI)
-  unit: Department of Photonic Networks and Systems
+  url: "https://www.hhi.fraunhofer.de/"
+  unit: "Department of Photonic Networks and Systems, Data Analytics and Signal Processing Group"
   place: Berlin, Germany
   period: 2021 – present
   points:
-    - Research and development of telemetry frameworks, data analytics, and ETL & ML pipelines for network and service automation, traffic monitoring and analytics, and autonomous resource allocation in optical networks.
-    - Developed from scratch, deployed and made key contributions to the first prototype technology demonstrators and proofs-of-concept (PoC) for industry and national research projects, as well as standardization proposals.
-    - Presented and published the prototypes and PoCs at international conferences, journals, workshops, exhibitions and project meetings.
+    - "Research and development of telemetry frameworks, data analytics, and ETL and ML pipelines for network and service automation, traffic monitoring, and autonomous resource allocation in optical networks."
+    - "Development of traffic analytics solutions (traffic forecasting, pattern recognition, and anomaly detection) and autonomous link-capacity provisioning for optical access (XGS-PON) and transport (OLS) networks."
+    - "Automation of optical network infrastructures, including optical line terminals (OLTs), optical network units (ONUs), optical transponders, ROADMs, and high-performance traffic generators and optical network testers, using Python and SCPI programming."
+    - "Generation and collection of experimental and simulated reference data for ML applications in optical networks, including synthetic and real traffic patterns with varying profiles and burstiness."
+    - "Designing, deploying, and making key contributions to the first prototype technology demonstrators and proofs of concept (PoCs) for industry and national research projects such as F5G OpenLab, 6G-RIC, and GreenICT@FMD, as well as to standardization proposals in ETSI ISG F5G."
+    - "Presenting and publishing research results at international conferences, workshops, exhibitions, and project meetings, in journals and magazines, and through project reports and standardization contributions."
+    - "Took on project management roles, including leading the Optical and Programmable Data Plane working group in the national research project 6G-RIC, and managing industry projects with American and Chinese telecommunications equipment vendors."
+    - "Development of new project ideas and proposals, and initiation and support in industrial projects."
+    - "<strong>Tools and technologies:</strong> NETCONF/RESTCONF/YANG, gRPC/gNMI/Protobuf, SNMP/MIB, Python (including self-developed Protocol Buffers–JSON converters), Apache Kafka, Telegraf, InfluxDB, Chronograf, Grafana, SCPI, Docker, and edge cloud deployment."
 
 - role: Doctoral Research Assistant
   org: Kiel University (CAU)
