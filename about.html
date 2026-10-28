@@ -13,7 +13,7 @@ lead: My Background — Work Experience, Education, Languages and Interests.
         <h3>{{ job.role }}</h3>
         <span class="period">{{ job.period }}</span>
       </div>
-      <p class="org">{% if job.url and job.url != "" %}<a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}{% if job.unit %} · <span class="muted">{{ job.unit }}</span>{% endif %}</p>
+      <div class="org-row"><p class="org">{% if job.url and job.url != "" %}<a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}{% if job.unit %} · <span class="muted">{{ job.unit }}</span>{% endif %}</p>{% if job.place and job.place != "" %}<span class="place">{{ job.place }}</span>{% endif %}</div>
       <ul>
         {% for p in job.points %}<li>{{ p }}</li>{% endfor %}
       </ul>
