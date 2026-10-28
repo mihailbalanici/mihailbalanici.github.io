@@ -336,3 +336,8 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 /* About: organization link in experience entries */
 .org a { color: inherit; text-decoration-color: var(--line); }
 .org a:hover { color: var(--accent); text-decoration-color: currentColor; }
+
+/* About: place on the organization row, right-aligned under the period */
+.org-row { display: flex; justify-content: space-between; align-items: baseline; gap: .25rem 1rem; flex-wrap: wrap; margin: .15rem 0 .45rem; }
+.org-row .org { margin: 0; }
+.org-row .place { font-size: .85rem; color: var(--muted); white-space: nowrap; margin-left: auto; }
