@@ -17,12 +17,17 @@
 
 - role: Doctoral Research Assistant
   org: Kiel University (CAU)
-  unit: Institute of Electrical Engineering and Information Technology
+  url: "https://www.uni-kiel.de/en/tf/research/institute-etit/chair-of-communications"
+  unit: "Institute of Electrical Engineering and Information Technology, Chair of Communications"
   place: Kiel, Germany
   period: 2016 – 2020
   points:
-    - Research on hybrid electro-optical intra-data center networks (DCN) and their optimization using traffic modeling, machine learning for traffic forecasting, and optical circuit switching (OCS).
-    - Prepared and taught exercise and lab courses on Digital Communications, Fiber-Optic Communication Networks, and Communications Lab.
+    - "Conducted research on hybrid electro-optical intra-data center networks (DCNs) and their optimization through traffic modeling, forecasting and optical circuit switching (OCS)."
+    - "Applied machine learning to server traffic classification and forecasting for OCS resource scheduling and allocation."
+    - "Published and presented research results in journals and at international conferences and workshops."
+    - "Peer-reviewed papers for journals such as JOCN, JOSN, and JCIS."
+    - "Taught the Digital Communications and Fiber-Optic Communication Networks exercise courses, and organized and supervised the Communications Lab course."
+    - "Supervised bachelor's and master's theses."
 
 - role: System Engineer
   org: ES Engineering and Service GmbH
