@@ -12,13 +12,13 @@ lead: Research prototypes and systems I've built.
     <div class="project-body" id="project-{{ forloop.index }}">
       <p>{{ p.summary }}</p>
       {% if p.tags %}<ul class="chips small-chips">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+      {% if p.links.size > 0 %}
+      <p class="links">
+        {% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>{% endfor %}
+      </p>
+      {% endif %}
     </div>
     <button type="button" class="project-toggle" aria-expanded="false" aria-controls="project-{{ forloop.index }}"><span>Read more</span> <i class="fa-solid fa-chevron-down"></i></button>
-    {% if p.links.size > 0 %}
-    <p class="links">
-      {% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>{% endfor %}
-    </p>
-    {% endif %}
   </article>
   {% endfor %}
 </div>
@@ -27,15 +27,16 @@ lead: Research prototypes and systems I've built.
   (function () {
     document.querySelectorAll(".project").forEach(function (card) {
       var body = card.querySelector(".project-body");
+      var summary = body.querySelector("p");
       var buttons = card.querySelectorAll(".project-title, .project-toggle");
       var toggle = card.querySelector(".project-toggle");
-      // Hide the toggle if the whole text already fits and there are no tags
-      if (body.scrollHeight <= body.clientHeight + 2 && !body.querySelector(".chips")) {
+      // A toggle is needed if the text is cut off, or if there are tags or links to reveal
+      var cut = summary && summary.scrollHeight > summary.clientHeight + 2;
+      if (!cut && !body.querySelector(".chips, .links")) {
         card.classList.remove("is-collapsed"); toggle.hidden = true; return;
       }
       function set(open) {
         card.classList.toggle("is-collapsed", !open);
-        body.style.maxHeight = open ? body.scrollHeight + "px" : "";
         buttons.forEach(function (b) { b.setAttribute("aria-expanded", open); });
         toggle.querySelector("span").textContent = open ? "Show less" : "Read more";
       }
