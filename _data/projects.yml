@@ -2,7 +2,7 @@
 - title: 6G Research and Innovation Cluster (6G-RIC)
   period: 2021-2025
   where: Fraunhofer HHI
-  summary: >-
+  summary: |
     6G-RIC (6G Research and Innovation Cluster) was a large German research initiative focused on developing the foundations for future 6G mobile communication systems. The project was funded by the 
     German Federal Ministry of Research, Technology and Space (BMFTR) and coordinated by the Fraunhofer Heinrich Hertz Institute (HHI) in Berlin. The cluster brought together more than 30 research groups 
     from universities and research institutes as well as numerous industry partners. Its goal was to advance key technologies for next-generation wireless networks, including radio access, network architectures,
@@ -28,7 +28,7 @@
 - title: Real-time ML pipeline for traffic forecasting in F5G optical access networks
   period: 2022
   where: Fraunhofer HHI
-  summary: >-
+  summary: |
     End-to-end streaming pipeline that collects network telemetry, forecasts traffic with ML models
     and feeds the predictions back into AI-assisted fifth-generation fixed network (F5G) operations.
   tags: [MLOps, Kafka, Time series, Forecasting]
@@ -38,7 +38,7 @@
 - title: ML-based traffic forecasting for hybrid electro-optical data center networks
   period: 2016 – 2020
   where: Kiel University · PhD research
-  summary: >-
+  summary: |
     Traffic modeling and LSTM-based classification and forecasting of server traffic flows,
     used to allocate optical circuit switching resources in hybrid intra-data center networks.
   tags: [Machine learning, LSTM, Data center networks, Optical switching]
@@ -49,7 +49,7 @@
 - title: Cluster-based data aggregation for vehicle-to-vehicle communication
   period: 2013 – 2014
   where: Ulm University · Master thesis
-  summary: >-
+  summary: |
     Design of a cluster-based data aggregation protocol (CBAP) for vehicular ad-hoc networks,
     with results presented at the IEEE Vehicular Networking Conference 2013.
   tags: [VANET, Protocol design, Simulation]
