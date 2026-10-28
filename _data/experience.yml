@@ -43,9 +43,11 @@
 
 - role: Graduate Student Researcher
   org: Ulm University
-  unit: Institute of Distributed Systems
+  url: "https://www.uni-ulm.de/en/in/vs/"
+  unit: "Institute of Distributed Systems"
   place: Ulm, Germany
   period: 2013 – 2014
   points:
-    - Master thesis research on a cluster-based data aggregation protocol (CBAP) for V2V communication / vehicular ad-hoc networks.
-    - Published key results at the IEEE Vehicular Networking Conference (VNC) 2013, Boston, MA, USA.
+    - "Developed a cluster-based data aggregation protocol (CBAP) for vehicle-to-vehicle (V2V) communication in vehicular ad hoc networks (VANETs) as part of my master's thesis research."
+    - "Published the key results at the IEEE Vehicular Networking Conference (VNC 2013) in Boston, MA, USA."
+    - "Co-authored a research proposal to the German Research Foundation (DFG) on a generic data aggregation scheme for VANETs."
