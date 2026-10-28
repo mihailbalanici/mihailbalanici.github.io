@@ -340,7 +340,8 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 /* About: experience header with period and place in a right-hand column */
 .job-head { flex-wrap: nowrap; align-items: flex-start; }
 .job-main { flex: 1; min-width: 0; }
-.job-main .org { margin: .15rem 0 .45rem; }
+.job-main .org { margin: .15rem 0 0; }
+.job-main .unit { margin: 0 0 .45rem; font-size: .95rem; }
 .job-meta { display: flex; flex-direction: column; align-items: flex-end; text-align: right; flex-shrink: 0; padding-top: .2rem; }
 .job-meta .place { font-size: .85rem; color: var(--muted); white-space: nowrap; margin-top: .15rem; }
 @media (max-width: 640px) {
