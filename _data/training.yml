@@ -3,10 +3,10 @@
 # Fields left empty are not shown.
 
 - course: "Cisco Certified Network Associate (CCNA Curriculum)"
-  provider: "Cisco Networking Academy (NetAcad), Technical University of Moldova"
+  provider: "Cisco Networking Academy (NetAcad)"
   url: "https://www.netacad.com"
   place: "Chișinău, Moldova"
   period: "2010–2011"
   topics: "TCP/IP, LAN/WAN technologies, routing protocols, and network security"
-  note: "Completed the full CCNA coursework program, gaining hands-on experience configuring Cisco switches and routers using Cisco Packet Tracer and physical hardware."
+  note: "Completed the full CCNA course program, gaining hands-on experience configuring Cisco switches and routers using Cisco Packet Tracer and physical hardware in the lab."
   
