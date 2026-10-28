@@ -31,12 +31,15 @@
 
 - role: System Engineer
   org: ES Engineering and Service GmbH
+  url: "https://www.companyhouse.de/ES-Engineering-GmbH-Co-KG-Ulm"
+  unit: "Software and Product Development"
   place: Ulm, Germany
   period: 2014 – 2015
   points:
-    - Software development, integration and testing for industrial control systems and industry automation (Siemens SIMATIC S7 PLC, IoT sensors and HMI display programming).
-    - Design and preparation of electrical documentation (ESplan CAD/CAE).
-    - Commissioning and technical deployment at client sites.
+    - "Developed, integrated, and tested software for industrial control systems and industrial automation, including Siemens SIMATIC S7 PLC programming, IoT sensors, and HMI touch displays."
+    - "Tested and maintained automation control systems (control cabinets), electric motors, and IoT sensors for building automation."
+    - "Carried out system deployment, integration, commissioning, and testing on site for major international clients (e.g., Bayer AG, Robert Bosch GmbH, Roche Holding AG, and Ferrero SpA)."
+    - "Designed and prepared electrical and system documentation using ESplan CAD/CAE."
 
 - role: Graduate Student Researcher
   org: Ulm University
