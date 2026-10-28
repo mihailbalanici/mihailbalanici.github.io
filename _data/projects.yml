@@ -17,23 +17,57 @@
   
     I worked extensively on the topic of AI-assisted, closed-loop network automation that autonomously provisions link-capacity in optical transport networks based on live telemetry, integrated with the TeraFlowSDN controller and
     demonstrated on a disaggregated optical network testbed.
-  tags: [Network automation, SDN, Telemetry, Optical transport, Traffic forecasting, Machine Learning]
+    
+  tags: [Network Automation, SDN, Telemetry, Optical Transport, Traffic Forecasting, Machine Learning]
   links:
     - { label: "Joint Cross-Domain Monitoring and Optimization of Radio Access, Optical Access and Optical Transport Networks", url: "https://ieeexplore.ieee.org/document/11618808" }
     - { label: "A Roadmap on Optical X-Haul Technologies for Next-Generation Mobile Networks", url: "https://ieeexplore.ieee.org/document/11152699" }
     - { label: "Autonomous Link-Capacity Adjustment using TeraFlowSDN Controller in a Disaggregated Optical Network Testbed", url: "https://ieeexplore.ieee.org/document/10926455" }
+    - { label: "PoC Video Recording of Live Demonstration of Autonomous Link-Capacity Adjustment in Optical Metro-Aggregation Networks", url: "https://www.youtube.com/watch?v=tN3diy9S-hY" }
     - { label: "Live Demonstration of Autonomous Link-Capacity Adjustment in Optical Metro-Aggregation Networks", url: "https://ieeexplore.ieee.org/document/10526615" }
     - { label: "Autonomous Capacity Adjustment with Dynamic Margin Allocation for Optical Enterprise Links", url: "https://ieeexplore.ieee.org/document/10526708" }
 
-- title: Real-time ML pipeline for traffic forecasting in F5G optical access networks
-  period: 2022
+- title: Green ICT @ Forschungsfabrik Mikroelektronik Deutschland (GreenICT@FMD)
+  period: 2022 - 2026
+  where: Research Fab Microelectronics Germany (FMD)
+  summary: |
+    GreenICT@FMD (Green ICT @ Forschungsfabrik Mikroelektronik Deutschland) was a German research initiative aimed at developing resource-efficient and environmentally sustainable information and communication technologies (ICT).
+    The project was funded by the German Federal Ministry of Research, Technology and Space (BMFTR) and ran from August 2022 to January 2026.
+    
+    The project established a Green ICT Competence Center within the Research Fab Microelectronics Germany (FMD) network, bringing together multiple Fraunhofer and Leibniz institutes. Its goal was to reduce the energy consumption and CO₂ footprint 
+    of ICT infrastructures, including communication networks, cloud and edge systems, and semiconductor technologies.
+    
+    Research activities focused on areas such as energy-efficient communication infrastructures, sensor–edge–cloud systems, and resource-optimized electronics production, supported by dedicated testbeds and validation projects with industry partners.
+    The project also developed methods for evaluation of the environmental impact of ICT systems and supported technology transfer to industry and start-ups.
+    
+    As part of this project, I led and executed a technology validation study with Adtran on traffic load–adaptive capacity adjustment for energy savings in optical networks. The work investigated multiple generations of optical transponders to quantify
+    power savings achieved by dynamically and autonomously adjusting optical link-capacity based on forecasted traffic demand.
+    
+  tags: [Capacity Provisioning, Optical Transport, Traffic Forecasting, Network Sustainability, Power Efficiency]
+  links:
+    - { label: Paper to be published, url: "https://ieeexplore.ieee.org/document/9979485" }
+
+- title: F5G OpenLab
+  period: 2021 - 2026
   where: Fraunhofer HHI
   summary: |
-    End-to-end streaming pipeline that collects network telemetry, forecasts traffic with ML models
-    and feeds the predictions back into AI-assisted fifth-generation fixed network (F5G) operations.
-  tags: [MLOps, Kafka, Time series, Forecasting]
+    The F5G OpenLab project at Fraunhofer HHI is an industry-driven initiative carried out in close collaboration with leading telecommunications operators and equipment vendors. It focuses on the development and validation of cutting-edge technologies
+    for optical network automation, aiming to advance highly reliable, trustworthy, and autonomous networking solutions.
+
+    With a strong commitment to sustainability, the project promotes the vision of Fiber to Everything (F5G) as a foundation for a green and energy-efficient ICT industry. At the same time, it supports the acceleration of digital transformation 
+    across sectors through robust and future-proof network infrastructures.
+
+    The F5G OpenLab provides a vendor-agnostic ecosystem for validating innovative networking solutions that enable the twin transition—digital and green. It offers vertical industries a neutral environment to evaluate and test their use cases,
+    while also fostering the development and deployment of advanced fiber-based solutions.
+
+    The results of this project have further contributed to international standardization efforts, including the development of use-case proposals, technology requirement specifications, gap analyses, and proof-of-concept (PoC) implementations for ETSI ISG F5G activities.
+
+    I led one project phase and worked on several others, including use-cases and PoCs definition, PoC design and implementation, and preparation of the final project reports. The latest use-case, which I led, focused on the topic of 
+    Distributed Intelligence with Privacy-Preserving Features for Fiber-to-the-Room (FTTR) systems.
+    
+  tags: [Optical Access, XGS-PON, FTTR, Monitoring, Network Automation]
   links:
-    - { label: ECOC 2022 paper, url: "https://ieeexplore.ieee.org/document/9979485" }
+    - { label: OFC Paper 2024, url: "https://ieeexplore.ieee.org/document/9979485" }
 
 - title: ML-based traffic forecasting for hybrid electro-optical data center networks
   period: 2016 – 2020
