@@ -45,6 +45,25 @@ lead: My Background — Work Experience, Education, Languages and Interests.
   </ol>
 </section>
 
+{% if site.data.training and site.data.training.size > 0 %}
+<section class="block">
+  <h2>Professional Development</h2>
+  <ol class="timeline">
+    {% for t in site.data.training %}
+    <li>
+      <div class="tl-head">
+        <h3>{{ t.course }}</h3>
+        <span class="period">{{ t.period }}</span>
+      </div>
+      <p class="org">{% if t.url and t.url != "" %}<a href="{{ t.url }}" target="_blank" rel="noopener">{{ t.provider }}</a>{% else %}{{ t.provider }}{% endif %}{% if t.place and t.place != "" %} · <span class="muted">{{ t.place }}</span>{% endif %}</p>
+      {% if t.topics and t.topics != "" %}<p class="small">Topics: {{ t.topics }}</p>{% endif %}
+      {% if t.note and t.note != "" %}<p class="small muted">{{ t.note }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
 <section class="block">
   <h2>Languages</h2>
   <ul class="chips">
