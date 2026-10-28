@@ -5,7 +5,7 @@ permalink: /about/
 lead: My Background — Work Experience, Education, Languages and Interests.
 ---
 <section class="block block-first">
-  <h2>Experience</h2>
+  <h2>Work Experience</h2>
   <ol class="timeline">
     {% for job in site.data.experience %}
     <li>
@@ -13,7 +13,7 @@ lead: My Background — Work Experience, Education, Languages and Interests.
         <h3>{{ job.role }}</h3>
         <span class="period">{{ job.period }}</span>
       </div>
-      <p class="org">{{ job.org }}{% if job.unit %} · <span class="muted">{{ job.unit }}</span>{% endif %}</p>
+      <p class="org">{% if job.url and job.url != "" %}<a href="{{ job.url }}" target="_blank" rel="noopener">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}{% if job.unit %} · <span class="muted">{{ job.unit }}</span>{% endif %}</p>
       <ul>
         {% for p in job.points %}<li>{{ p }}</li>{% endfor %}
       </ul>
@@ -54,7 +54,7 @@ lead: My Background — Work Experience, Education, Languages and Interests.
   <ul class="chips">
     <li>Fitness &amp; tennis</li>
     <li>Investing &amp; financial markets</li>
-    <li><a href="{{ '/photography/' | relative_url }}">Digital photography</a></li>
+    <li>Digital photography</li>
     <li>Traveling &amp; hiking</li>
   </ul>
 </section>
