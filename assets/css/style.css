@@ -332,3 +332,7 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 .pub-filter button:hover { border-color: currentColor; }
 .pub-filter button.is-active { border-color: currentColor; box-shadow: 0 0 0 1px currentColor inset; }
 .pub-year[hidden], .pubs > li[hidden] { display: none; }
+
+/* About: organization link in experience entries */
+.org a { color: inherit; text-decoration-color: var(--line); }
+.org a:hover { color: var(--accent); text-decoration-color: currentColor; }
