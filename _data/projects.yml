@@ -1,14 +1,29 @@
 # Projects — edit freely. "links" is optional; each link needs a label and url.
-- title: Autonomous link-capacity adjustment in optical networks
-  period: 2024
+- title: 6G Research and Innovation Cluster (6G-RIC)
+  period: 2021-2025
   where: Fraunhofer HHI
   summary: >-
-    Closed-loop automation that adjusts link capacity in optical metro-aggregation networks
-    based on live telemetry, integrated with the TeraFlowSDN controller and shown on a
-    disaggregated optical network testbed.
-  tags: [Network automation, SDN, Telemetry, Optical networks]
+    6G-RIC (6G Research and Innovation Cluster) was a large German research initiative focused on developing the foundations for future 6G mobile communication systems. The project was funded by the 
+    German Federal Ministry of Research, Technology and Space (BMFTR) and coordinated by the Fraunhofer Heinrich Hertz Institute (HHI) in Berlin. The cluster brought together more than 30 research groups 
+    from universities and research institutes as well as numerous industry partners. Its goal was to advance key technologies for next-generation wireless networks, including radio access, network architectures,
+    optical transport networks, and AI-driven network management.
+
+    A particular focus was placed on energy-efficient, secure, and open communication systems, as well as enabling new capabilities such as integrated sensing, AI-native networking, and post-quantum secure communication.
+    Through experimental platforms and demonstrators, the project aimed to validate new technologies and foster an open innovation ecosystem for research, industry, and startups.
+    
+    I led Working Group WG6.4 - Optical and Programmable Data Plane within TIA 6 - Autonomous, Convergent Networks. The group focused on several research topics, including optical neuromorphic computing, optical access technologies,
+    particularly SDM-PON, in-house optical networks, and AI-driven automation for optical transport networks, with particular emphasis on autonomous, traffic-load-adaptive link-capacity adjustment. Some results of this collaboration
+    were summarized in the magazine and conference papers listed below.
+  
+    I worked extensively on the topic of AI-assisted, closed-loop network automation that autonomously provisions link-capacity in optical transport networks based on live telemetry, integrated with the TeraFlowSDN controller and
+    demonstrated on a disaggregated optical network testbed.
+  tags: [Network automation, SDN, Telemetry, Optical transport, Traffic forecasting, Machine Learning]
   links:
-    - { label: OFC 2024 paper, url: "https://ieeexplore.ieee.org/abstract/document/10526615" }
+    - { label: "Joint Cross-Domain Monitoring and Optimization of Radio Access, Optical Access and Optical Transport Networks", url: "https://ieeexplore.ieee.org/document/11618808" }
+    - { label: "A Roadmap on Optical X-Haul Technologies for Next-Generation Mobile Networks", url: "https://ieeexplore.ieee.org/document/11152699" }
+    - { label: "Autonomous Link-Capacity Adjustment using TeraFlowSDN Controller in a Disaggregated Optical Network Testbed", url: "https://ieeexplore.ieee.org/document/10926455" }
+    - { label: "Live Demonstration of Autonomous Link-Capacity Adjustment in Optical Metro-Aggregation Networks", url: "https://ieeexplore.ieee.org/document/10526615" }
+    - { label: "Autonomous Capacity Adjustment with Dynamic Margin Allocation for Optical Enterprise Links", url: "https://ieeexplore.ieee.org/document/10526708" }
 
 - title: Real-time ML pipeline for traffic forecasting in F5G optical access networks
   period: 2022
