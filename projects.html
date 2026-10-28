@@ -10,7 +10,7 @@ lead: Research prototypes and systems I've built.
     <p class="meta">{{ p.period }} · {{ p.where }}</p>
     <h2><button type="button" class="project-title" aria-expanded="false" aria-controls="project-{{ forloop.index }}">{{ p.title }}</button></h2>
     <div class="project-body" id="project-{{ forloop.index }}">
-      <p>{{ p.summary }}</p>
+      <div class="project-summary">{{ p.summary | markdownify }}</div>
       {% if p.tags %}<ul class="chips small-chips">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
       {% if p.links.size > 0 %}
       <p class="links">
@@ -27,7 +27,7 @@ lead: Research prototypes and systems I've built.
   (function () {
     document.querySelectorAll(".project").forEach(function (card) {
       var body = card.querySelector(".project-body");
-      var summary = body.querySelector("p");
+      var summary = body.querySelector(".project-summary");
       var buttons = card.querySelectorAll(".project-title, .project-toggle");
       var toggle = card.querySelector(".project-toggle");
       // A toggle is needed if the text is cut off, or if there are tags or links to reveal
