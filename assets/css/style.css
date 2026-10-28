@@ -337,7 +337,14 @@ main.wrap { padding-top: 3.5rem; padding-bottom: 4rem; }
 .org a { color: inherit; text-decoration-color: var(--line); }
 .org a:hover { color: var(--accent); text-decoration-color: currentColor; }
 
-/* About: place on the organization row, right-aligned under the period */
-.org-row { display: flex; justify-content: space-between; align-items: baseline; gap: .25rem 1rem; flex-wrap: wrap; margin: .15rem 0 .45rem; }
-.org-row .org { margin: 0; }
-.org-row .place { font-size: .85rem; color: var(--muted); white-space: nowrap; margin-left: auto; }
+/* About: experience header with period and place in a right-hand column */
+.job-head { flex-wrap: nowrap; align-items: flex-start; }
+.job-main { flex: 1; min-width: 0; }
+.job-main .org { margin: .15rem 0 .45rem; }
+.job-meta { display: flex; flex-direction: column; align-items: flex-end; text-align: right; flex-shrink: 0; padding-top: .2rem; }
+.job-meta .place { font-size: .85rem; color: var(--muted); white-space: nowrap; margin-top: .15rem; }
+@media (max-width: 640px) {
+  .job-head { flex-direction: column; gap: 0; }
+  .job-meta { flex-direction: row; gap: .5rem; align-items: baseline; padding: 0; margin-bottom: .4rem; }
+  .job-meta .place::before { content: "· "; }
+}
