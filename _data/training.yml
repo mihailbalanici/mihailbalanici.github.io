@@ -1,0 +1,12 @@
+# Professional development: completed courses and training without a formal certificate.
+# Earned certificates go into certifications.yml instead.
+# Fields left empty are not shown.
+
+- course: "Cisco Certified Network Associate (CCNA Curriculum)"
+  provider: "Cisco Networking Academy (NetAcad), Technical University of Moldova"
+  url: "https://www.netacad.com"
+  place: "Chișinău, Moldova"
+  period: "2010–2011"
+  topics: "TCP/IP, LAN/WAN technologies, routing protocols, and network security"
+  note: "Completed the full CCNA coursework program, gaining hands-on experience configuring Cisco switches and routers using Cisco Packet Tracer and physical hardware."
+  
