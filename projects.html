@@ -4,13 +4,16 @@ title: Projects
 permalink: /projects/
 lead: Research prototypes and systems I've built.
 ---
-<div class="cards">
+<div class="cards projects-grid">
   {% for p in site.data.projects %}
-  <article class="card project">
+  <article class="card project is-collapsed">
     <p class="meta">{{ p.period }} · {{ p.where }}</p>
-    <h2>{{ p.title }}</h2>
-    <p>{{ p.summary }}</p>
-    {% if p.tags %}<ul class="chips small-chips">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+    <h2><button type="button" class="project-title" aria-expanded="false" aria-controls="project-{{ forloop.index }}">{{ p.title }}</button></h2>
+    <div class="project-body" id="project-{{ forloop.index }}">
+      <p>{{ p.summary }}</p>
+      {% if p.tags %}<ul class="chips small-chips">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+    </div>
+    <button type="button" class="project-toggle" aria-expanded="false" aria-controls="project-{{ forloop.index }}"><span>Read more</span> <i class="fa-solid fa-chevron-down"></i></button>
     {% if p.links.size > 0 %}
     <p class="links">
       {% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>{% endfor %}
@@ -19,3 +22,26 @@ lead: Research prototypes and systems I've built.
   </article>
   {% endfor %}
 </div>
+
+<script>
+  (function () {
+    document.querySelectorAll(".project").forEach(function (card) {
+      var body = card.querySelector(".project-body");
+      var buttons = card.querySelectorAll(".project-title, .project-toggle");
+      var toggle = card.querySelector(".project-toggle");
+      // Hide the toggle if the whole text already fits and there are no tags
+      if (body.scrollHeight <= body.clientHeight + 2 && !body.querySelector(".chips")) {
+        card.classList.remove("is-collapsed"); toggle.hidden = true; return;
+      }
+      function set(open) {
+        card.classList.toggle("is-collapsed", !open);
+        body.style.maxHeight = open ? body.scrollHeight + "px" : "";
+        buttons.forEach(function (b) { b.setAttribute("aria-expanded", open); });
+        toggle.querySelector("span").textContent = open ? "Show less" : "Read more";
+      }
+      buttons.forEach(function (b) {
+        b.addEventListener("click", function () { set(card.classList.contains("is-collapsed")); });
+      });
+    });
+  })();
+</script>
