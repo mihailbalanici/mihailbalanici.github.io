@@ -38,7 +38,7 @@ lead: My Background — Work Experience, Education, Languages and Interests.
         <span class="period">{{ e.period }}</span>
       </div>
       <p class="org">{{ e.school }} · <span class="muted">{{ e.place }}</span></p>
-      {% if e.thesis %}<p class="small">Thesis: <em>{{ e.thesis }}</em></p>{% endif %}
+      {% if e.thesis %}<p class="small">Thesis: <em>{{ e.thesis }}</em>{% if e.thesis_note and e.thesis_note != "" %} ({{ e.thesis_note }}){% endif %}</p>{% endif %}
       {% if e.note %}<p class="small muted">{{ e.note }}</p>{% endif %}
     </li>
     {% endfor %}
