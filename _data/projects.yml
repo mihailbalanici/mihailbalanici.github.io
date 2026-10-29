@@ -19,6 +19,8 @@
     demonstrated on a disaggregated optical network testbed.
     
   tags: [Network Automation, SDN, Telemetry, Optical Transport, Traffic Forecasting, Machine Learning]
+
+    "Published papers:"
   links:
     - { label: "Joint Cross-Domain Monitoring and Optimization of Radio Access, Optical Access and Optical Transport Networks", url: "https://ieeexplore.ieee.org/document/11618808" }
     - { label: "A Roadmap on Optical X-Haul Technologies for Next-Generation Mobile Networks", url: "https://ieeexplore.ieee.org/document/11152699" }
@@ -44,8 +46,10 @@
     power savings achieved by dynamically and autonomously adjusting optical link-capacity based on forecasted traffic demand.
     
   tags: [Capacity Provisioning, Optical Transport, Traffic Forecasting, Network Sustainability, Power Efficiency]
+
+    "Published papers:"
   links:
-    - { label: Paper to be published, url: "https://ieeexplore.ieee.org/document/9979485" }
+    - { label: "Joint Cross-Domain Monitoring and Optimization of Radio Access, Optical Access and Optical Transport Networks", url: "https://ieeexplore.ieee.org/document/11618808" }
 
 - title: F5G OpenLab
   period: 2021 - 2026
@@ -65,26 +69,23 @@
     I led one project phase and worked on several others, including use-cases and PoCs definition, PoC design and implementation, and preparation of the final project reports. The latest use-case, which I led, focused on the topic of 
     Distributed Intelligence with Privacy-Preserving Features for Fiber-to-the-Room (FTTR) systems.
     
-  tags: [Optical Access, XGS-PON, FTTR, Monitoring, Network Automation]
-  links:
-    - { label: OFC Paper 2024, url: "https://ieeexplore.ieee.org/document/9979485" }
+  tags: [Optical Access, XGS-PON, FTTR, Monitoring, Telemetry Streaming, Network Automation]
 
-- title: ML-based traffic forecasting for hybrid electro-optical data center networks
-  period: 2016 – 2020
-  where: Kiel University · PhD research
-  summary: |
-    Traffic modeling and LSTM-based classification and forecasting of server traffic flows,
-    used to allocate optical circuit switching resources in hybrid intra-data center networks.
-  tags: [Machine learning, LSTM, Data center networks, Optical switching]
+    "Published papers:"
   links:
-    - { label: JOCN 2021 paper, url: "https://ieeexplore.ieee.org/document/9353854" }
-    - { label: JOCN 2018 paper, url: "https://ieeexplore.ieee.org/document/8542837" }
+    - { label: "F5G OpenLab: Enabling Twin Transition through Ubiquitous Fiber Connectivity", url: "https://ieeexplore.ieee.org/document/10207224" }
+    - { label: "Demonstration of a Real-Time ML Pipeline for Traffic Forecasting in AI-Assisted F5G Optical Access Networks", url: "https://ieeexplore.ieee.org/document/9979485" }
 
-- title: Cluster-based data aggregation for vehicle-to-vehicle communication
-  period: 2013 – 2014
-  where: Ulm University · Master thesis
+- title: ML-Assisted Traffic Forecasting for Optical Circuit Switching Scheduling in Hybrid Electro-Optical Intra-Data Center Networks
+  period: 2016 – 2021
+  where: Kiel University · PhD Research
   summary: |
-    Design of a cluster-based data aggregation protocol (CBAP) for vehicular ad-hoc networks,
-    with results presented at the IEEE Vehicular Networking Conference 2013.
-  tags: [VANET, Protocol design, Simulation]
-  links: []
+    Traffic modeling and ML-based classification and forecasting of server traffic flows, for allocation of optical circuit switching resources in hybrid intra-data center networks.
+  
+  tags: [Machine Learning, LSTM, Traffic Forecasting, Data Center Networks, Optical Circuit Switching]
+
+    "Published papers:"
+  links:
+    - { label: "Classification and forecasting of real-time server traffic flows employing long short-term memory for hybrid E/O data center networks", url: "https://ieeexplore.ieee.org/document/9353854" }
+    - { label: "Machine Learning-Based Traffic Prediction for Optical Switching Resource Allocation in Hybrid Intra-Data Center Networks", url: "https://ieeexplore.ieee.org/document/8696381" }
+    - { label: "Hybrid electro-optical intra-data center networks tailored for different traffic classes", url: "https://ieeexplore.ieee.org/document/8542837" }
