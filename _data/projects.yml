@@ -68,6 +68,7 @@
   tags: [Optical Access, XGS-PON, FTTR, Monitoring, Telemetry Streaming, Network Automation]
   links:
     - { label: "F5G OpenLab: Enabling Twin Transition through Ubiquitous Fiber Connectivity", url: "https://ieeexplore.ieee.org/document/10207224" }
+    - { label: "PoC Video Recording of the Demonstration of a Real-Time ML Pipeline for Traffic Forecasting in AI-Assisted F5G Optical Access Networks", url: "https://www.youtube.com/watch?v=5moNFa7uhzc" }
     - { label: "Demonstration of a Real-Time ML Pipeline for Traffic Forecasting in AI-Assisted F5G Optical Access Networks", url: "https://ieeexplore.ieee.org/document/9979485" }
 
 - title: ML-Assisted Traffic Forecasting for Optical Circuit Switching Scheduling in Hybrid Electro-Optical Intra-Data Center Networks
