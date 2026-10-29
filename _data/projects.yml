@@ -19,8 +19,6 @@
     demonstrated on a disaggregated optical network testbed.
     
   tags: [Network Automation, SDN, Telemetry, Optical Transport, Traffic Forecasting, Machine Learning]
-
-    "Published papers:"
   links:
     - { label: "Joint Cross-Domain Monitoring and Optimization of Radio Access, Optical Access and Optical Transport Networks", url: "https://ieeexplore.ieee.org/document/11618808" }
     - { label: "A Roadmap on Optical X-Haul Technologies for Next-Generation Mobile Networks", url: "https://ieeexplore.ieee.org/document/11152699" }
@@ -46,8 +44,6 @@
     power savings achieved by dynamically and autonomously adjusting optical link-capacity based on forecasted traffic demand.
     
   tags: [Capacity Provisioning, Optical Transport, Traffic Forecasting, Network Sustainability, Power Efficiency]
-
-    "Published papers:"
   links:
     - { label: "Joint Cross-Domain Monitoring and Optimization of Radio Access, Optical Access and Optical Transport Networks", url: "https://ieeexplore.ieee.org/document/11618808" }
 
@@ -70,8 +66,6 @@
     Distributed Intelligence with Privacy-Preserving Features for Fiber-to-the-Room (FTTR) systems.
     
   tags: [Optical Access, XGS-PON, FTTR, Monitoring, Telemetry Streaming, Network Automation]
-
-    "Published papers:"
   links:
     - { label: "F5G OpenLab: Enabling Twin Transition through Ubiquitous Fiber Connectivity", url: "https://ieeexplore.ieee.org/document/10207224" }
     - { label: "Demonstration of a Real-Time ML Pipeline for Traffic Forecasting in AI-Assisted F5G Optical Access Networks", url: "https://ieeexplore.ieee.org/document/9979485" }
@@ -83,8 +77,6 @@
     Traffic modeling and ML-based classification and forecasting of server traffic flows, for allocation of optical circuit switching resources in hybrid intra-data center networks.
   
   tags: [Machine Learning, LSTM, Traffic Forecasting, Data Center Networks, Optical Circuit Switching]
-
-    "Published papers:"
   links:
     - { label: "Classification and forecasting of real-time server traffic flows employing long short-term memory for hybrid E/O data center networks", url: "https://ieeexplore.ieee.org/document/9353854" }
     - { label: "Machine Learning-Based Traffic Prediction for Optical Switching Resource Allocation in Hybrid Intra-Data Center Networks", url: "https://ieeexplore.ieee.org/document/8696381" }
